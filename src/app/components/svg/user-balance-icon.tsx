@@ -1,0 +1,25 @@
+import React from "react";
+
+interface UserBalanceIconProps {
+  width?: string;
+  height?: string;
+  fill?: string;
+}
+
+const UserBalanceIcon: React.FC<UserBalanceIconProps> = ({
+  width = "100%",
+  height = "100%",
+}) => (
+  <svg
+    viewBox="0 0 18 14"
+    xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    fill="currentColor"
+  >
+    <path fill="currentColor" d="M1.095.363h14.601c.604 0 1.096.491 1.096 1.096V3.93H11.55a2.897 2.897 0 0 0-2.061.854 2.9 2.9 0 0 0-.854 2.062v.308a2.897 2.897 0 0 0 .854 2.061 2.9 2.9 0 0 0 2.061.855h5.242v2.471c0 .605-.492 1.096-1.096 1.096h-14.6A1.096 1.096 0 0 1 0 12.54V1.46C0 .854.491.363 1.095.363" />
+    <path fill="currentColor" d="M18 8.153a.82.82 0 0 1-.821.821H11.55a1.82 1.82 0 0 1-1.82-1.82v-.308a1.82 1.82 0 0 1 1.82-1.82h5.629a.82.82 0 0 1 .821.821zm-6.152-2.12a.967.967 0 1 0-.001 1.934.967.967 0 0 0 .001-1.933" />
+  </svg>
+);
+
+export default UserBalanceIcon;
