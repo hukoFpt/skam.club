@@ -1,0 +1,40 @@
+import React from "react";
+
+interface ExchangeIconProps {
+  height?: string;
+  width?: string;
+  fill?: string;
+}
+
+const ExchangeIcon: React.FC<ExchangeIconProps> = ({
+  height = "100%",
+  width = "100%",
+}) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    width={width}
+    height={height}
+    viewBox="0 0 23 23"
+  >
+    <path
+      fill="#1E1B4B"
+      stroke="currentColor"
+      stroke-width="1.3"
+      d="M2.19 6.125 11.5.751l9.31 5.374v10.75l-9.31 5.374-9.31-5.374z"
+    />
+    <g fill="currentColor" clip-path="url(#a)">
+      <path
+        fill="currentColor"
+        d="M7.88 11.573H6.47V8.59h6.315V7.188c.989.7 1.95 1.385 2.933 2.083l-2.927 2.08v-1.39H7.88zM10.944 15.813c-1.001-.71-1.963-1.397-2.94-2.09.977-.692 1.939-1.376 2.921-2.078v1.38h4.904v-1.6h1.42v2.97h-6.305z"
+      />
+    </g>
+    <defs>
+      <clipPath id="a">
+        <path fill="currentColor" d="M6.469 7.188h10.78v8.625H6.47z" />
+      </clipPath>
+    </defs>
+  </svg>
+);
+
+export default ExchangeIcon;
