@@ -1,0 +1,17 @@
+@keyframes flyIn {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(0); }
+  }
+  
+  @keyframes flyOut {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100%); }
+  }
+  
+  .flyIn {
+    animation: flyIn 0.2s ease-out forwards;
+  }
+  
+  .flyOut {
+    animation: flyOut 0.2s ease-out forwards;
+  }

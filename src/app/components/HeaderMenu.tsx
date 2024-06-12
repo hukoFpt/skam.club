@@ -1,5 +1,6 @@
 "use client";
 
+import "./HeaderMenu.css";
 import Link from "next/link";
 import Image from "next/image";
 import HeaderLogo from "./svg/header-menu-logo";
@@ -21,7 +22,7 @@ const HeaderMenu = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   useEffect(() => {
     const checkScroll = () => {
-      if (window.pageYOffset > 100) {
+      if (window.pageYOffset > 40) {
         // Adjust this value based on the height of your HeaderMenu
         setIsScrolled(true);
       } else {
@@ -52,7 +53,7 @@ const HeaderMenu = () => {
         </Link>
         <div className="header-navigation flex-grow flex items-center gap-6 px-3">
           <Link
-            href="/upgrade"
+            href="/en/upgrade"
             className="header-navigation-upgrade flex gap-1"
           >
             <div className="header-navigation-upgrade-icon">
@@ -63,7 +64,7 @@ const HeaderMenu = () => {
             </div>
           </Link>
           <Link
-            href="/exchange"
+            href="/en/exchange"
             className="header-navigation-exchange flex gap-1"
           >
             <div className="header-navigation-exchange-icon">
@@ -86,7 +87,7 @@ const HeaderMenu = () => {
                     <UserBalanceIcon width="18px" height="18px" />
                   </div>
                 </div>
-                <div className="user-balance-text text-sm font-bold text-teal-300 group-hover:text-teal-400">
+                <div className="user-balance-text text-sm font-bold montserrat-extended text-teal-300 group-hover:text-teal-400">
                   $0.00
                 </div>
               </div>
@@ -94,7 +95,7 @@ const HeaderMenu = () => {
                 <div className="user-weapon-balance-icon text-purple-200 group-hover:text-rose-500">
                   <UserWeaponBalanceIcon width="18px" height="18px" />
                 </div>
-                <div className="user-weapon-balance-text text-sm font-bold text-purple-200 group-hover:text-rose-500">
+                <div className="user-weapon-balance-text text-sm font-bold montserrat-extended text-purple-200 group-hover:text-rose-500">
                   $0.00
                 </div>
               </div>
@@ -114,49 +115,51 @@ const HeaderMenu = () => {
           </div>
         </div>
       </div>
-      {isScrolled && (
-        <div className="fixed top-3 right-10 px-5 py-3 rounded-lg bg-slate-950/70 flex items-center space-x-2">
-          <div className="header-menu-user flex items-center gap-3">
-            <div className="user-money flex items-center gap-1">
-              <div className="user-money-balance flex flex-col items-center">
-                <div
-                  className="user-balance flex items-center gap-1 group cursor-pointer"
-                  onClick={topUpModal.onOpen}
-                >
-                  <div className="user-balance-icon">
-                    <div className="user-weapon-balance-icon text-teal-300 group-hover:text-teal-400">
-                      <UserBalanceIcon width="18px" height="18px" />
-                    </div>
-                  </div>
-                  <div className="user-balance-text text-sm font-bold text-teal-300 group-hover:text-teal-400">
-                    $0.00
+      <div
+        className={`header-menu ${
+          isScrolled ? "flyIn mt-3" : "flyOut"
+        } fixed top-0 right-10 px-5 py-3 rounded-lg bg-slate-950/70 flex items-center space-x-2`}
+      >
+        <div className="header-menu-user flex items-center gap-3">
+          <div className="user-money flex items-center gap-1">
+            <div className="user-money-balance flex flex-col items-right">
+              <div
+                className="user-balance flex items-center gap-1 group cursor-pointer"
+                onClick={topUpModal.onOpen}
+              >
+                <div className="user-balance-icon">
+                  <div className="user-weapon-balance-icon text-teal-300 group-hover:text-teal-400">
+                    <UserBalanceIcon width="18px" height="18px" />
                   </div>
                 </div>
-                <div className="user-weapon-balance flex items-center gap-1 group">
-                  <div className="user-weapon-balance-icon text-purple-200 group-hover:text-rose-500">
-                    <UserWeaponBalanceIcon width="18px" height="18px" />
-                  </div>
-                  <div className="user-weapon-balance-text text-sm font-bold text-purple-200 group-hover:text-rose-500">
-                    $0.00
-                  </div>
+                <div className="user-balance-text text-sm font-bold montserrat-extended text-teal-300 group-hover:text-teal-400">
+                  $1000.00
                 </div>
               </div>
-              <div className="top-up text-teal-300 hover:text-teal-200">
-                <TopUpIcon width="20px" height="20px" />
+              <div className="user-weapon-balance flex items-center gap-1 group">
+                <div className="user-weapon-balance-icon text-purple-200 group-hover:text-rose-500">
+                  <UserWeaponBalanceIcon width="18px" height="18px" />
+                </div>
+                <div className="user-weapon-balance-text text-sm font-bold montserrat-extended text-purple-200 group-hover:text-rose-500">
+                  $0.00
+                </div>
               </div>
             </div>
-            <div className="user-avatar">
-              <Image
-                src="/images/user.jpg"
-                alt="User"
-                width={46}
-                height={46}
-                className="rounded-full p-[2px] border-gray-400 border-2"
-              />
+            <div className="top-up text-teal-300 hover:text-teal-200">
+              <TopUpIcon width="20px" height="20px" />
             </div>
           </div>
+          <div className="user-avatar">
+            <Image
+              src="/images/user.jpg"
+              alt="User"
+              width={46}
+              height={46}
+              className="rounded-full p-[2px] border-gray-400 border-2"
+            />
+          </div>
         </div>
-      )}
+      </div>
     </div>
   );
 };
