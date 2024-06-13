@@ -13,6 +13,12 @@ import UserWeaponBalanceIcon from "./svg/user-weapon-balance-icon";
 import TopUpIcon from "./svg/top-up-icon";
 
 const HeaderMenu = () => {
+  const [currentUrl, setCurrentUrl] = useState("");
+
+  useEffect(() => {
+    setCurrentUrl(window.location.href);
+  }, []);
+
   const [isOpen, setIsOpen] = useState(false);
   const topUpModal = UseTopUpModal();
   const toggleOpen = useCallback(() => {
@@ -39,8 +45,15 @@ const HeaderMenu = () => {
 
   return (
     <div>
-      <div className="header-menu bg-indigo-950 m-5 p-3 rounded-xl flex justify-between">
-        <Link href="/" className="header-menu-logo flex items-center gap-2">
+      <div className="header-menu bg-bg-highlight m-5 m-3 rounded-xl flex justify-between">
+        <Link
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href = "/";
+          }}
+          href="/"
+          className="header-menu-logo flex items-center gap-2 m-3"
+        >
           <HeaderLogo width="46px" height="46px" />
           <div className="flex flex-col items-center">
             <div className="text-white text-lg eurostile-extended">
@@ -52,28 +65,99 @@ const HeaderMenu = () => {
           </div>
         </Link>
         <div className="header-navigation flex-grow flex items-center gap-6 px-3">
-          <Link
-            href="/en/upgrade"
-            className="header-navigation-upgrade flex gap-1"
-          >
-            <div className="header-navigation-upgrade-icon">
-              <UpgradeIcon height="18px" />
+          {currentUrl === "http://localhost:3000/en/upgrade" ? (
+            <div
+              className="header-navigation-upgrade flex gap-1 h-full items-center text-rose-500"
+              style={{
+                backgroundImage:
+                  "radial-gradient(50% 50% at 50% 100%, rgba(175, 49, 49, 0.377) 0px, rgba(76, 67, 154, 0)), radial-gradient(50% 50% at 50% 0%, rgba(201, 47, 47, 0.432) 0px, rgba(76, 67, 154, 0))",
+              }}
+            >
+              <div className="header-navigation-upgrade-icon">
+                <UpgradeIcon height="18px" />
+              </div>
+              <div className="header-navigation-upgrade-text text-sm">
+                UPGRADE
+              </div>
             </div>
-            <div className="header-navigation-upgrade-text text-sm font-light ">
-              UPGRADE
+          ) : (
+            <Link
+              href="/en/upgrade"
+              className={`header-navigation-upgrade flex gap-1 h-full items-center ${
+                currentUrl === "http://localhost:3000/en/upgrade"
+                  ? "text-rose-500"
+                  : "text-white"
+              }`}
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = "/en/upgrade";
+              }}
+              style={{
+                transition: "background 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundImage =
+                  "radial-gradient(50% 50% at 50% 100%, rgba(76, 67, 154, 0.432) 0px, rgba(76, 67, 154, 0)), radial-gradient(50% 50% at 50% 0%, rgba(76, 67, 154, 0.432) 0px, rgba(76, 67, 154, 0))";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundImage = "";
+              }}
+            >
+              <div className="header-navigation-upgrade-icon">
+                <UpgradeIcon height="18px" />
+              </div>
+              <div className="header-navigation-upgrade-text text-sm font-light ">
+                UPGRADE
+              </div>
+            </Link>
+          )}
+
+          {currentUrl === "http://localhost:3000/en/exchange" ? (
+            <div
+              className="header-navigation-upgrade flex gap-1 h-full items-center text-rose-500"
+              style={{
+                backgroundImage:
+                  "radial-gradient(50% 50% at 50% 100%, rgba(175, 49, 49, 0.377) 0px, rgba(76, 67, 154, 0)), radial-gradient(50% 50% at 50% 0%, rgba(201, 47, 47, 0.432) 0px, rgba(76, 67, 154, 0))",
+              }}
+            >
+              <div className="header-navigation-upgrade-icon">
+                <UpgradeIcon height="18px" />
+              </div>
+              <div className="header-navigation-upgrade-text text-sm">
+                EXCHANGE
+              </div>
             </div>
-          </Link>
-          <Link
-            href="/en/exchange"
-            className="header-navigation-exchange flex gap-1"
-          >
-            <div className="header-navigation-exchange-icon">
-              <ExchangeIcon height="18px" />
-            </div>
-            <div className="header-navigation-exchange-text text-sm font-light ">
-              EXCHANGE
-            </div>
-          </Link>
+          ) : (
+            <Link
+              href="/en/upgrade"
+              className={`header-navigation-upgrade flex gap-1 h-full items-center ${
+                currentUrl === "http://localhost:3000/en/exchange"
+                  ? "text-rose-500"
+                  : "text-white"
+              }`}
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = "/en/exchange";
+              }}
+              style={{
+                transition: "background 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundImage =
+                  "radial-gradient(50% 50% at 50% 100%, rgba(76, 67, 154, 0.432) 0px, rgba(76, 67, 154, 0)), radial-gradient(50% 50% at 50% 0%, rgba(76, 67, 154, 0.432) 0px, rgba(76, 67, 154, 0))";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundImage = "";
+              }}
+            >
+              <div className="header-navigation-upgrade-icon">
+                <ExchangeIcon height="18px" />
+              </div>
+              <div className="header-navigation-upgrade-text text-sm font-light ">
+                EXCHANGE
+              </div>
+            </Link>
+          )}
         </div>
         <div className="header-menu-user flex items-center gap-3">
           <div className="user-money flex items-center gap-1">

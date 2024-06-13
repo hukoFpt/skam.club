@@ -28,8 +28,8 @@ const TopUpModal = () => {
         "
     >
       <div className="h-[600px] flex flex-col bg-bg-main rounded-xl w-1/2 overflow-y-hidden">
-        <div className="header bg-indigo-950 flex justify-between">
-          <div className="text-white p-4">TOP UP BALANCE</div>
+        <div className="header bg-bg-highlight flex justify-between">
+          <div className="text-white p-4 text-sm font-bold">TOP UP BALANCE</div>
           <div
             className="text-gray-400 font-bold p-4 cursor-pointer hover:text-white"
             onClick={topUpModal.onClose}
