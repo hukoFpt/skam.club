@@ -1,0 +1,38 @@
+const Rarity3 = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 87 84">
+      <circle cx="44" cy="42" r="31" fill="url(#a)" opacity=".4" />
+      <path
+        stroke="url(#b)"
+        stroke-width="2"
+        d="M10.756 24.328 40.5 7.155l29.744 17.173v34.345L40.5 75.845 10.756 58.673z"
+      />
+      <defs>
+        <radialGradient
+          id="a"
+          cx="0"
+          cy="0"
+          r="1"
+          gradientTransform="rotate(90 1 43)scale(31)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#353DFF" />
+          <stop offset="1" stop-color="#353DFF" stop-opacity="0" />
+        </radialGradient>
+        <linearGradient
+          id="b"
+          x1="76"
+          x2="13.408"
+          y1="41.5"
+          y2="41.5"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#353DFF" />
+          <stop offset="1" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export default Rarity3;
