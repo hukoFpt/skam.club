@@ -1,7 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: [
+      "cdn.discordapp.com",
+      "avatars.steamstatic.com",
+      "cfdn.skin.club"
+    ],
+  },
 };
 
 export default nextConfig;
