@@ -6,7 +6,7 @@ import LiveFeed from "./LiveFeed.component";
 
 const Header = () => {
   return (
-    <div className="relative h-[268px] header-bg px-11 pt-2.5">
+    <div className="relative header-bg px-11 pt-2.5">
       <TopBlock />
       <Menu />
       <LiveFeed />
