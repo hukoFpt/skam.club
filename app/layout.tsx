@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Montserrat, Michroma } from "next/font/google";
+import { Geist, Geist_Mono, Montserrat, Michroma, Orbitron } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/organisms/Header/Header.component";
 
@@ -25,6 +25,13 @@ const michroma = Michroma({
   weight: "400",
 });
 
+const orbitron = Orbitron({
+  variable: "--font-orbitron",
+  subsets: ["latin"],
+  display: "swap",
+  weight: "800",
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -33,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} ${michroma.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} ${michroma.variable} ${orbitron.variable} antialiased`}
       >
         <div className="relative flex flex-col min-h-screen">
           <Header />
