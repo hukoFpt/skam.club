@@ -9,18 +9,21 @@ Follow these steps to run the project locally:
 ### Prerequisites
 
 Make sure you have the following installed:
+
 - [Node.js](https://nodejs.org/) (v16 or later)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/skam.club.git
    cd skam.club
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    # or
@@ -28,6 +31,7 @@ Make sure you have the following installed:
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    # or
@@ -41,6 +45,7 @@ Make sure you have the following installed:
 ## To-Do List
 
 ### 0. **Layout**
+
 - [ ] Homepage.
 - [ ] Skin Wiki.
 - [ ] Inventory.
@@ -52,6 +57,7 @@ Make sure you have the following installed:
 - [ ] Battle.
 
 ### 1. **Account**
+
 - [ ] User authentication (login, signup, logout).
 - [ ] Password reset functionality.
 - [ ] User profile page (history, level, statistics).
@@ -61,6 +67,7 @@ Make sure you have the following installed:
 ---
 
 ### 2. **Inventory**
+
 - [ ] Display user's inventory (list of items/skins).
 - [ ] Filter and sort items by rarity, type, or value.
 - [ ] Allow users to sell items back for balance.
@@ -68,6 +75,7 @@ Make sure you have the following installed:
 ---
 
 ### 3. **Case Opening**
+
 - [ ] Display available cases with prices and potential rewards.
 - [ ] Implement case-opening animation.
 - [ ] Deduct balance when a case is opened.
@@ -77,6 +85,7 @@ Make sure you have the following installed:
 ---
 
 ### 4. **Upgrade**
+
 - [ ] Allow users to select items from their inventory for upgrades.
 - [ ] Implement upgrade mechanics (e.g., percentage-based success rate).
 - [ ] Deduct the selected item(s) from the inventory on success or failure.
@@ -86,6 +95,7 @@ Make sure you have the following installed:
 ---
 
 ### 5. **Battle**
+
 - [ ] Create a battle lobby where users can join or create battles.
 - [ ] Allow users to select cases for the battle.
 - [ ] Implement real-time battle mechanics (e.g., WebSocket for live updates).
@@ -95,11 +105,13 @@ Make sure you have the following installed:
 ---
 
 ### 6. **Exchange**
+
 - [ ] Allow users to exchange items.
 
 ---
 
 ### 7. **Tracking**
+
 - [ ] Track all user actions (case openings, upgrades, battles, exchanges).
 - [ ] Display a detailed activity log in the user's profile.
 - [ ] Add filters for tracking specific actions (e.g., case openings only).

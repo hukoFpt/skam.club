@@ -7,10 +7,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import RangeSlider from "react-range-slider-input";
 import "react-range-slider-input/dist/style.css";
 
-
 import "swiper/css";
 import "swiper/css/free-mode";
 import { Mousewheel } from "swiper/modules";
+import HexagonCheckbox from "@/components/atoms/icons/Home/HexagonCheckbox.icon";
 
 const FilterToTopButton = () => {
   const scrollToTop = () => {
@@ -154,12 +154,55 @@ const FilterPriceButton = ({ isActive, toggleActiveState }: { isActive: boolean;
 };
 
 const MainPageFilter = () => {
-  const [value, setValue] = useState([0, 1000]); // Initial range values
+  const [sliderValue, setSliderValue] = useState<[number, number]>([0, 100]); // Slider works with 0-100
+
+  // Define your custom ranges
+  const ranges = [
+    { percent: 0, value: 0 },
+    { percent: 50, value: 6 },
+    { percent: 75, value: 26 },
+    { percent: 80, value: 50 },
+    { percent: 90, value: 100 },
+    { percent: 96, value: 200 },
+    { percent: 99, value: 777 },
+    { percent: 100, value: 1000 },
+  ];
+
+  // Convert slider percentage to actual value
+  const percentToValue = (percent: number): number => {
+    for (let i = 0; i < ranges.length - 1; i++) {
+      const current = ranges[i];
+      const next = ranges[i + 1];
+
+      if (percent >= current.percent && percent <= next.percent) {
+        const ratio = (percent - current.percent) / (next.percent - current.percent);
+        return current.value + ratio * (next.value - current.value); // Removed Math.round()
+      }
+    }
+    return ranges[ranges.length - 1].value;
+  };
+
+  // Get actual values for display
+  const actualValues: [number, number] = [percentToValue(sliderValue[0]), percentToValue(sliderValue[1])];
+
   const [isPriceFilterActive, setIsPriceFilterActive] = useState(false);
 
   const togglePriceFilter = () => {
-    setIsPriceFilterActive(!isPriceFilterActive); // Toggle the active state
+    setIsPriceFilterActive(!isPriceFilterActive);
   };
+
+  const minPercent = sliderValue[0];
+  const maxPercent = sliderValue[1];
+  const minValue = actualValues[0];
+  const maxValue = actualValues[1];
+
+  const sliderWidth = 480; // px, must match your slider width
+  const minPx = (minPercent / 100) * sliderWidth;
+  const maxPx = (maxPercent / 100) * sliderWidth;
+
+  const overlap = Math.abs(maxPx - minPx) < 40;
+
+  const [isChecked, setIsChecked] = useState(false);
 
   return (
     <div className="pt-6 px-5 pb-7 mx-[35px] sticky top-0 z-10 rounded-[20px] swiper-container">
@@ -169,10 +212,55 @@ const MainPageFilter = () => {
         <FilterPriceButton isActive={isPriceFilterActive} toggleActiveState={togglePriceFilter} />
       </div>
       <div className={`price-filter-wrapper flex items-center justify-between ${isPriceFilterActive ? "active" : ""}`}>
-        <div className="mx-8 flex items-center">
-          <span className="text-[#9793ba] tracking-tighter	text-[14px] mr-8">CHOOSE A PRICE</span>
-          <div className="bg-[#282546] w-[480px]">
-            <RangeSlider id="range-slider-custom" />
+        <div className="h-full flex items-center">
+          <div className="flex h-full items-center mx-8 ">
+            <span className="text-[#9793ba] tracking-tighter text-[14px] mr-8">CHOOSE A PRICE</span>
+            <div className="relative bg-[#282546] w-[480px]">
+              <RangeSlider id="range-slider-custom" value={sliderValue} onInput={setSliderValue} min={0} max={100} />
+              {overlap ? (
+                <div
+                  className="absolute top-[-32px] text-[#58547b] text-[12px] font-semibold"
+                  style={{
+                    left: `calc(${(minPercent + maxPercent) / 2}% - 30px)`, // Centered between thumbs
+                    width: "max-content",
+                    whiteSpace: "nowrap",
+                  }}
+                >
+                  ${minValue.toFixed(2)} - ${maxValue.toFixed(2)}
+                </div>
+              ) : (
+                <>
+                  <div
+                    className="absolute top-[-32px] text-[#58547b] text-[12px] font-semibold"
+                    style={{ left: `calc(${minPercent}% - ${minPercent * 0.14}px)` }}
+                  >
+                    ${minValue.toFixed(2)}
+                  </div>
+                  <div
+                    className="absolute top-[-32px] text-[#58547b] text-[12px] font-semibold"
+                    style={{ left: `calc(${maxPercent}% - ${maxPercent * 0.14}px)` }}
+                  >
+                    ${maxValue.toFixed(2)}
+                  </div>
+                </>
+              )}
+            </div>
+          </div>
+          <div
+            className="h-full border-l border-[#1f1c36] flex items-center justify-center pl-8 cursor-pointer select-none"
+            onClick={() => setIsChecked(!isChecked)}
+          >
+            <div className="flex items-center">
+              <input type="checkbox" className="appearance-none w-0 h-0 opacity-0 absolute" />
+              <HexagonCheckbox
+                checked={isChecked}
+                onChange={setIsChecked} // Add this line!
+                size={26}
+              />
+            </div>
+            <div className="text-[#58547b] text-[14px] ml-2.5 uppercase font-medium tracking-tighter tracking">
+              Sufficient balance to open
+            </div>
           </div>
         </div>
         <div>Hello</div>
