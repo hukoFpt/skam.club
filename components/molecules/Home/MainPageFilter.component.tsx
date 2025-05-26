@@ -11,6 +11,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import { Mousewheel } from "swiper/modules";
 import HexagonCheckbox from "@/components/atoms/icons/Home/HexagonCheckbox.icon";
+import XIcon from "@/components/atoms/icons/Home/XIcon.icon";
 
 const FilterToTopButton = () => {
   const scrollToTop = () => {
@@ -263,7 +264,14 @@ const MainPageFilter = () => {
             </div>
           </div>
         </div>
-        <div>Hello</div>
+        <div className="border-l border-[#1f1c36] h-full flex items-center justify-center">
+          <button className="flex items-center justify-center group bg-[#282546] rounded-sm mx-10 px-2.5 h-8 min-w-[106px] cursor-pointer">
+            <XIcon height={12} className="fill-[#7f7aab] group-hover:fill-[#e4dcfc] transition-colors duration-300" />
+            <span className="ml-2 text-[#7f7aab] group-hover:text-[#e4dcfc] text-[14px] font-semibold tracking-tighter transition-colors duration-300 uppercase">
+              Clear
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   );
