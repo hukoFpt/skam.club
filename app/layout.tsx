@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono, Montserrat, Michroma, Orbitron } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/organisms/Header/Header.component";
-import Footer from "@/components/organisms/Footer/Footer.component";
+
+import ClientWrapper from "@/components/organisms/ClientWrapper.component";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +33,11 @@ const orbitron = Orbitron({
   weight: "800",
 });
 
+export const metadata = {
+  title: "CS2 | CS:GO Case Opening, Cool Skins | Skin.Club",
+  description: "Get all your favorite CS2 skins at the best prices. Provably Fair, instant trades, and more.",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -40,14 +45,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.png" />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} ${michroma.variable} ${orbitron.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} ${michroma.variable} ${orbitron.variable}`}
       >
-        <div className="relative flex flex-col min-h-screen">
-          <Header />
-          <div className="flex-1">{children}</div>
-          <Footer />
-        </div>
+        <ClientWrapper>{children}</ClientWrapper>
       </body>
     </html>
   );

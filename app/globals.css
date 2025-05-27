@@ -41,6 +41,20 @@ body {
   background-position: center;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background: #2c2c2c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6b6b6b;
+  border-radius: 9px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #919191;
+}
+
 .header-menu::before {
   /* Generated Content */
   content: "";
