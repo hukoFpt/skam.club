@@ -3,9 +3,10 @@ type Props = {
   title: string;
   description: string;
 };
-export const SectionAccordion = ({ id, title, description }: Props) => {
+
+export const CommonSectionAccordion = ({ id, title, description }: Props) => {
   return (
-    <section id={`section-${id}`} className="default-case-section w-full h-[120px]">
+    <section id={`section-${id}`} className="default-case-section w-full">
       <div className="border-t border-[#1e1b35] pt-11 relative">
         <div className="title-number large font-orbitron opacity-10">{String(id).padStart(2, "0")}</div>
         <div className="title-number small font-orbitron opacity-10">{String(id).padStart(2, "0")}</div>
@@ -14,7 +15,6 @@ export const SectionAccordion = ({ id, title, description }: Props) => {
           <div className="text-[13px] text-[#70699b] uppercase">{description}</div>
         </div>
       </div>
-      <div></div>
     </section>
   );
 };
