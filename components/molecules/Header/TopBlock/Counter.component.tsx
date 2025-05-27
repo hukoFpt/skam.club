@@ -6,7 +6,7 @@ import {
   BattleCounterIcon,
   UpgradeCounterIcon,
   CaseCounterIcon,
-} from "@/components/atoms/icons/Header/TopBlock.icon";
+} from "@/components/atoms/icons/Layout/Header/TopBlock.icon";
 
 type Props = {
   icon: string;

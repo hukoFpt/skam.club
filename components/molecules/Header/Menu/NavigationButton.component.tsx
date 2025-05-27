@@ -8,7 +8,7 @@ import {
   BattleIcon,
   DailyCaseIcon,
   ExchangeIcon,
-} from "@/components/atoms/icons/Header/Menu.icon";
+} from "@/components/atoms/icons/Layout/Header/Menu.icon";
 
 type Props = {
   icon: string;

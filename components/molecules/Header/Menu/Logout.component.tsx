@@ -1,4 +1,4 @@
-import { LogoutIcon } from "@/components/atoms/icons/Header/Menu.icon";
+import { LogoutIcon } from "@/components/atoms/icons/Layout/Header/Menu.icon";
 
 const LogoutButton = () => {
   return (

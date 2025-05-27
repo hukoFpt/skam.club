@@ -1,13 +1,49 @@
-import { SettingsIcon } from "@/components/atoms/icons/Header/Menu.icon";
+"use client";
+
+import { SettingsIcon } from "@/components/atoms/icons/Layout/Header/Menu.icon";
 import Logo from "@/components/molecules/Header/Menu/Logo.component";
 import LogoutButton from "@/components/molecules/Header/Menu/Logout.component";
 import { Button } from "@/components/molecules/Header/Menu/NavigationButton.component";
 import { UserAvatar } from "@/components/molecules/Header/Menu/UserAvatar.component";
 import { UserMoney } from "@/components/molecules/Header/Menu/UserMoney.component";
+import { useEffect, useState } from "react";
+
+const StickyProfile = () => {
+  const [scrollY, setScrollY] = useState(0);
+  const menuHeight = 84;
+  const filterHeight = 750;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const getTransformY = () => {
+    if (scrollY < menuHeight) return "-translate-y-[150px]";
+    if (scrollY > filterHeight) return "translate-y-[95px]";
+    return "translate-y-0";
+  };
+
+  return (
+    <div className={`sticky-profile right-0 mr-22 top-[10px] transition-transform duration-300 ${getTransformY()}`}>
+      <div className="flex items-center ">
+        <UserMoney money_balance={100} weapon_balance={100} />
+        <UserAvatar
+          avatar_url="https://avatars.steamstatic.com/4cf6453c66d795292b7b133971288a0505c59e83_medium.jpg"
+          level={1}
+        />
+      </div>
+    </div>
+  );
+};
 
 const Menu = () => {
   return (
     <div className="header-menu overflow-hidden relative flex h-[84px]">
+      <StickyProfile />
       <Logo />
       <div className="header-menu overflow-hidden relative flex h-[84px] w-full">
         <div className="flex ml-8 justify-between items-center w-full">

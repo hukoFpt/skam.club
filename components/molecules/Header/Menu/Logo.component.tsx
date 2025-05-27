@@ -1,5 +1,5 @@
 import React from "react";
-import { LogoIcon } from "@/components/atoms/icons/Header/Menu.icon";
+import { LogoIcon } from "@/components/atoms/icons/Layout/Header/Menu.icon";
 
 const Logo = () => {
   return (

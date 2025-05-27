@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono, Montserrat, Michroma, Orbitron } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/organisms/Header/Header.component";
+import Footer from "@/components/organisms/Footer/Footer.component";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -45,6 +46,7 @@ export default function RootLayout({
         <div className="relative flex flex-col min-h-screen">
           <Header />
           <div className="flex-1">{children}</div>
+          <Footer />
         </div>
       </body>
     </html>
