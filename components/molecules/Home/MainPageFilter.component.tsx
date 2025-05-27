@@ -17,7 +17,7 @@ const FilterToTopButton = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", // Smooth scrolling effect
+      behavior: "smooth",
     });
   };
 
@@ -67,7 +67,7 @@ const FilterSection = () => {
   const handleSectionClick = (id: string) => {
     const targetSection = document.getElementById(`section-${id}`);
     if (targetSection) {
-      const offset = 100; // Adjust this value to scroll less (e.g., 50px above the section)
+      const offset = 100; 
       const top = targetSection.getBoundingClientRect().top + window.scrollY - offset;
 
       window.scrollTo({
@@ -84,8 +84,6 @@ const FilterSection = () => {
         if (element) {
           const rect = element.getBoundingClientRect();
           const sectionHeight = element.offsetHeight;
-
-          // Adjust logic to account for small section heights
           if (rect.top >= 0 && rect.top + sectionHeight / 2 <= window.innerHeight / 2) {
             setActiveSection(section.id);
           }
@@ -145,10 +143,22 @@ const FilterSection = () => {
   );
 };
 
-const FilterPriceButton = ({ isActive, toggleActiveState }: { isActive: boolean; toggleActiveState: () => void }) => {
+const FilterPriceButton = ({
+  isActive,
+  toggleActiveState,
+  priceRange,
+}: {
+  isActive: boolean;
+  toggleActiveState: () => void;
+  priceRange?: string;
+}) => {
   return (
     <div className={`filter-price-button h-full ${isActive ? "active" : ""}`} onClick={toggleActiveState}>
-      <div className="text-[15px] text-[#e4dcfc] tracking-tighter uppercase">$ Price</div>
+      <div className="text-[15px] text-[#e4dcfc] tracking-tighter uppercase">
+        <span className={!priceRange ? "" : "text-[#4af1b8]"}>$</span>
+        <span className=""> PRICE</span>
+        {priceRange && <div className="text-[#385866] text-[12px] font-semibold"> {priceRange}</div>}
+      </div>
       <div className={`arrow-icon ${isActive ? "active" : ""}`}></div>
     </div>
   );
@@ -157,7 +167,6 @@ const FilterPriceButton = ({ isActive, toggleActiveState }: { isActive: boolean;
 const MainPageFilter = () => {
   const [sliderValue, setSliderValue] = useState<[number, number]>([0, 100]); // Slider works with 0-100
 
-  // Define your custom ranges
   const ranges = [
     { percent: 0, value: 0 },
     { percent: 50, value: 6 },
@@ -177,7 +186,7 @@ const MainPageFilter = () => {
 
       if (percent >= current.percent && percent <= next.percent) {
         const ratio = (percent - current.percent) / (next.percent - current.percent);
-        return current.value + ratio * (next.value - current.value); // Removed Math.round()
+        return current.value + ratio * (next.value - current.value);
       }
     }
     return ranges[ranges.length - 1].value;
@@ -197,7 +206,7 @@ const MainPageFilter = () => {
   const minValue = actualValues[0];
   const maxValue = actualValues[1];
 
-  const sliderWidth = 480; // px, must match your slider width
+  const sliderWidth = 480;
   const minPx = (minPercent / 100) * sliderWidth;
   const maxPx = (maxPercent / 100) * sliderWidth;
 
@@ -205,12 +214,29 @@ const MainPageFilter = () => {
 
   const [isChecked, setIsChecked] = useState(false);
 
+  const hasStateChanged = sliderValue[0] !== 0 || sliderValue[1] !== 100 || isChecked !== false;
+
+  const isPriceRangeChanged = sliderValue[0] !== 0 || sliderValue[1] !== 100;
+
+  const priceRangeText = isPriceRangeChanged ? `$${minValue.toFixed(2)} - ${maxValue.toFixed(2)}` : undefined;
+
+  // Reset to initial state
+  const resetFilters = () => {
+    if (!hasStateChanged) return;
+    setSliderValue([0, 100]);
+    setIsChecked(false);
+  };
+
   return (
     <div className="pt-6 px-5 pb-7 mx-[35px] sticky top-0 z-10 rounded-[20px] swiper-container">
       <div className="main-page-filter flex h-[70px] relative items-center justify-between overflow-hidden">
         <FilterToTopButton />
         <FilterSection />
-        <FilterPriceButton isActive={isPriceFilterActive} toggleActiveState={togglePriceFilter} />
+        <FilterPriceButton
+          isActive={isPriceFilterActive}
+          toggleActiveState={togglePriceFilter}
+          priceRange={priceRangeText}
+        />
       </div>
       <div className={`price-filter-wrapper flex items-center justify-between ${isPriceFilterActive ? "active" : ""}`}>
         <div className="h-full flex items-center">
@@ -222,7 +248,7 @@ const MainPageFilter = () => {
                 <div
                   className="absolute top-[-32px] text-[#58547b] text-[12px] font-semibold"
                   style={{
-                    left: `calc(${(minPercent + maxPercent) / 2}% - 30px)`, // Centered between thumbs
+                    left: `calc(${(minPercent + maxPercent) / 2}% - 30px)`,
                     width: "max-content",
                     whiteSpace: "nowrap",
                   }}
@@ -253,21 +279,32 @@ const MainPageFilter = () => {
           >
             <div className="flex items-center">
               <input type="checkbox" className="appearance-none w-0 h-0 opacity-0 absolute" />
-              <HexagonCheckbox
-                checked={isChecked}
-                onChange={setIsChecked} // Add this line!
-                size={26}
-              />
+              <HexagonCheckbox checked={isChecked} onChange={setIsChecked} size={26} />
             </div>
             <div className="text-[#58547b] text-[14px] ml-2.5 uppercase font-medium tracking-tighter tracking">
               Sufficient balance to open
             </div>
           </div>
         </div>
-        <div className="border-l border-[#1f1c36] h-full flex items-center justify-center">
-          <button className="flex items-center justify-center group bg-[#282546] rounded-sm mx-10 px-2.5 h-8 min-w-[106px] cursor-pointer">
-            <XIcon height={12} className="fill-[#7f7aab] group-hover:fill-[#e4dcfc] transition-colors duration-300" />
-            <span className="ml-2 text-[#7f7aab] group-hover:text-[#e4dcfc] text-[14px] font-semibold tracking-tighter transition-colors duration-300 uppercase">
+        <div className="border-[#1f1c36] h-full flex items-center justify-center border-l">
+          <button
+            className={`flex items-center justify-center group bg-[#282546] rounded-sm mx-10 px-2.5 h-8 min-w-[106px] transition-all duration-300 ${
+              hasStateChanged ? "cursor-pointer hover:bg-[#3a3658]" : "cursor-not-allowed"
+            }`}
+            onClick={resetFilters}
+            disabled={!hasStateChanged}
+          >
+            <XIcon
+              height={12}
+              className={`transition-colors duration-300 fill-[#7f7aab] ${
+                hasStateChanged ? " group-hover:fill-[#e4dcfc]" : ""
+              }`}
+            />
+            <span
+              className={`ml-2 text-[14px] font-semibold tracking-tighter transition-colors duration-300 uppercase text-[#7f7aab] ${
+                hasStateChanged ? " group-hover:text-[#e4dcfc]" : ""
+              }`}
+            >
               Clear
             </span>
           </button>
