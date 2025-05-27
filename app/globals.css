@@ -601,7 +601,12 @@ body {
 }
 
 .swiper-container {
-  height: 70px;
+  padding-top: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 28px;
+  margin-left: 35px;
+  margin-right: 35px;
   filter: drop-shadow(10px 20px 15px #141225) drop-shadow(10px -20px 15px #141225);
 }
 

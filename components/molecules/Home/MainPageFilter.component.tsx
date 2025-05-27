@@ -228,7 +228,7 @@ const MainPageFilter = () => {
   };
 
   return (
-    <div className="pt-6 px-5 pb-7 mx-[35px] sticky top-0 z-10 rounded-[20px] swiper-container">
+    <div className="sticky top-0 z-10 rounded-[20px] swiper-container">
       <div className="main-page-filter flex h-[70px] relative items-center justify-between overflow-hidden">
         <FilterToTopButton />
         <FilterSection />
