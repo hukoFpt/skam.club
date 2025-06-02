@@ -159,6 +159,10 @@ body {
   transform: translateY(-65px);
 }
 
+.footer::before {
+  background: #110f1d;
+}
+
 .settings-button::before {
   background: linear-gradient(180deg, #0d0c1a00, #0d0c1a00 0, #000 47.92%, #0d0c1a00);
   content: "";
@@ -704,25 +708,94 @@ body {
 }
 
 .pickem-banner__button {
-    align-items: center;
-    background-color: #5c49d0;
-    clip-path: polygon(17px 0, calc(100% - 17px) 0, 100% 50%, calc(100% - 17px) 100%, 17px 100%, 0 50%);
-    color: #fff;
-    cursor: pointer;
-    display: inline-flex
-;
-    font-size: 18px;
-    font-weight: 700;
-    height: 58px;
-    justify-content: center;
-    margin-top: 36px;
-    min-width: unset;
-    padding: 0 15px;
-    text-transform: uppercase;
-    transition: color .3s, background-color .3s;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    white-space: nowrap;
-    width: 241px;
+  align-items: center;
+  background-color: #5c49d0;
+  clip-path: polygon(17px 0, calc(100% - 17px) 0, 100% 50%, calc(100% - 17px) 100%, 17px 100%, 0 50%);
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: 700;
+  height: 58px;
+  justify-content: center;
+  margin-top: 36px;
+  min-width: unset;
+  padding: 0 15px;
+  text-transform: uppercase;
+  transition:
+    color 0.3s,
+    background-color 0.3s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  width: 241px;
+}
+
+.section-accordion {
+  transition: background-image 0.5s ease-in-out;
+  background: url("/section-bg.webp") no-repeat;
+}
+
+.section-title__new-label::before {
+  background-image: linear-gradient(90deg, #cf346400, #cf3464 28.2%, #cf3464 71.25%, #cf346400);
+  content: "";
+  height: 1px;
+  position: absolute;
+  left: -150px;
+  width: 650px;
+  z-index: -1;
+}
+
+.section-title__animation-bg {
+  -webkit-mask-image: radial-gradient(50% 50% at 50% 50%, rgba(207, 52, 100, 0.7) 19.23%, rgba(207, 52, 100, 0) 100%);
+  mask-image: radial-gradient(50% 50% at 50% 50%, #cf3464b3 19.23%, #cf346400);
+  mix-blend-mode: screen;
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+}
+
+.section-title__create-case-button {
+  animation: button-gradient 2s linear infinite reverse;
+  background: linear-gradient(90deg, #8471f7 38.41%, #d7d0ff 65.38%, #8471f7 79.84%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200% auto;
+  color: transparent;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: auto;
+  text-transform: uppercase;
+  transition: transform 0.3s;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.section-title__create-case-button:hover {
+  transform: scale(1.05);
+}
+
+@keyframes button-gradient {
+  100% {
+    background-position: 200%;
+  }
+}
+
+.plus-icon {
+  -webkit-mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M6 0h2v14H6zM0 6h14v2H0z'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M6 0h2v14H6zM0 6h14v2H0z'/%3E%3C/svg%3E");
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+}
+
+.section-title__vitality-banner {
+  background: url("/vitality-banner.png") no-repeat top;
+  height: 648px;
+  margin-bottom: -278px;
+  width: 100%;
 }
