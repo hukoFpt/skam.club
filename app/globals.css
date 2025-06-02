@@ -564,9 +564,7 @@ body {
 }
 
 .arrow-icon {
-  background-color: #9793ba;
   display: inline-block;
-  height: 8px;
   -webkit-mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 8'%3E%3Cpath d='M1.115 8 0 6.405 8 0l8 6.405L14.885 8 8 2.498z'/%3E%3C/svg%3E");
   mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 8'%3E%3Cpath d='M1.115 8 0 6.405 8 0l8 6.405L14.885 8 8 2.498z'/%3E%3C/svg%3E");
   -webkit-mask-position: center;
@@ -576,8 +574,6 @@ body {
   -webkit-mask-size: 100%;
   mask-size: 100%;
   transform: rotate(180deg);
-  transition: transform 0.3s;
-  width: 16px;
 }
 
 #range-slider-custom {
@@ -681,7 +677,6 @@ body {
 }
 
 .title-number.large {
-  font-size: 96px;
   left: 45px;
   top: 45px;
   transform: rotate(180deg);

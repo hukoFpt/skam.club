@@ -159,7 +159,7 @@ const FilterPriceButton = ({
         <span className=""> PRICE</span>
         {priceRange && <div className="text-[#385866] text-[12px] font-semibold"> {priceRange}</div>}
       </div>
-      <div className={`arrow-icon ${isActive ? "active" : ""}`}></div>
+      <div className={`arrow-icon bg-[#9793ba] w-[16px] h-[8px] ${isActive ? "active" : ""}`}></div>
     </div>
   );
 };

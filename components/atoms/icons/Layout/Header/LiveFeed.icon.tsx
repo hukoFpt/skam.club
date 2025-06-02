@@ -3,6 +3,7 @@ import React from "react";
 
 export const FireIcon = (props: Omit<ImageProps, "src" | "alt">) => (
   <Image
+    unoptimized
     src="/fire.gif"
     alt="Fire"
     width={29}
