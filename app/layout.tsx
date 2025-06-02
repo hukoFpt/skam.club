@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono, Montserrat, Michroma, Orbitron } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
 import ClientWrapper from "@/components/organisms/ClientWrapper.component";
@@ -33,6 +34,14 @@ const orbitron = Orbitron({
   weight: "800",
 });
 
+const nechaoSharp = localFont({
+  src: "../public/fonts/NechaoSharp.ttf",
+  variable: "--font-nechao-sharp",
+  weight: "400",
+  style: "normal",
+  display: "swap",
+});
+
 export const metadata = {
   title: "CS2 | CS:GO Case Opening, Cool Skins | Skin.Club",
   description: "Get all your favorite CS2 skins at the best prices. Provably Fair, instant trades, and more.",
@@ -49,7 +58,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.png" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} ${michroma.variable} ${orbitron.variable}`}
+        className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} ${michroma.variable} ${orbitron.variable} ${nechaoSharp.variable}`}
       >
         <ClientWrapper>{children}</ClientWrapper>
       </body>

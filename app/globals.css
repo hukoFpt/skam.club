@@ -26,6 +26,10 @@ body {
   font-family: var(--font-orbitron), sans-serif;
 }
 
+.font-nechao {
+  font-family: var(--font-nechao-sharp), sans-serif;
+}
+
 .header-bg::before {
   /* Generated Content */
   content: "";
@@ -211,7 +215,7 @@ body {
   width: 38px;
 }
 
-.sticky-profile{
+.sticky-profile {
   background: #000c;
   clip-path: polygon(
     10px 0,
@@ -677,8 +681,48 @@ body {
 }
 
 .title-number.large {
-  left: 45px;
-  top: 45px;
   transform: rotate(180deg);
   writing-mode: vertical-rl;
+}
+
+.pickem-banner {
+  background: url("/pickem-banner.jpg") no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 73px 0 90px;
+}
+
+.pickem-banner__prize-pool-title-text {
+  background: linear-gradient(300deg, #ff3c69 48.12%, #ff8da7 99.54%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 0.9em;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+}
+
+.pickem-banner__button {
+    align-items: center;
+    background-color: #5c49d0;
+    clip-path: polygon(17px 0, calc(100% - 17px) 0, 100% 50%, calc(100% - 17px) 100%, 17px 100%, 0 50%);
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex
+;
+    font-size: 18px;
+    font-weight: 700;
+    height: 58px;
+    justify-content: center;
+    margin-top: 36px;
+    min-width: unset;
+    padding: 0 15px;
+    text-transform: uppercase;
+    transition: color .3s, background-color .3s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    width: 241px;
 }
