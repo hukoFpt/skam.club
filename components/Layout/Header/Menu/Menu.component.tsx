@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 
+import styles from "@/styles/components/layout/header.module.css";
+
 import Logo from "@/components/Layout/Header/Menu/Logo.component";
 import LogoutButton from "@/components/Layout/Header/Menu/Logout.component";
 import { Button } from "@/components/Layout/Header/Menu/NavigationButton.component";
@@ -29,7 +31,9 @@ const StickyProfile = () => {
   };
 
   return (
-    <div className={`sticky-profile right-0 mr-22 top-[10px] transition-transform duration-300 ${getTransformY()}`}>
+    <div
+      className={`${styles["sticky-profile"]} right-0 mr-22 top-[10px] transition-transform duration-300 ${getTransformY()}`}
+    >
       <div className="flex items-center ">
         <UserMoney money_balance={100} weapon_balance={100} />
         <UserAvatar
@@ -43,10 +47,10 @@ const StickyProfile = () => {
 
 const Menu = () => {
   return (
-    <div className="header-menu overflow-hidden relative flex h-[84px]">
+    <div className={`${styles["header-menu"]} overflow-hidden relative flex h-[84px]`}>
       <StickyProfile />
       <Logo />
-      <div className="header-menu overflow-hidden relative flex h-[84px] w-full">
+      <div className={`${styles["header-menu"]} overflow-hidden relative flex h-[84px] w-full`}>
         <div className="flex ml-8 justify-between items-center w-full">
           <div className="flex gap-5 h-full">
             <Button icon="upgrade" label="UPGRADE" />
@@ -57,7 +61,7 @@ const Menu = () => {
             <Button icon="exchange" label="EXCHANGE" />
           </div>
           <div className="flex">
-            <div className="settings-button relative flex h-12 w-12 items-center justify-center group">
+            <div className={`${styles["settings-button"]} relative flex h-12 w-12 items-center justify-center group`}>
               <SettingsIcon
                 height={22}
                 width={22}

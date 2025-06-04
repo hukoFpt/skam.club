@@ -1,8 +1,10 @@
 import Image from "next/image";
 
+import styles from "@/styles/pages/home.module.css";
+
 const KarriganBanner = () => {
   return (
-    <div className="karrigan-banner-block relative mb-[42px]">
+    <div className={`${styles["karrigan-banner-block"]} relative mb-[42px]`}>
       <div className="border-b border-[#55283b] justify-between w-[1316px] mx-auto px-2.5 pt-5 pb-1 relative flex z-1">
         <Image src="/karrigan-first-photo.png" alt="Karrigan Banner" width={363} height={352} />
         <div className="flex flex-col mt-24 items-center">

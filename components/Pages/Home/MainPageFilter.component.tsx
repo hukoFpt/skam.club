@@ -3,6 +3,8 @@
 import { HomeIcon } from "@/components/UI/Icons/Home/MainPageFilter.icon";
 import React, { useEffect, useRef, useState } from "react";
 
+import styles from "@/styles/pages/home.module.css";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import RangeSlider from "react-range-slider-input";
 import "react-range-slider-input/dist/style.css";
@@ -111,7 +113,7 @@ const FilterSection = () => {
       <Swiper
         modules={[Mousewheel]}
         slidesPerView="auto"
-        className="h-full w-full swiper-container"
+        className={`h-full w-full ${styles["swiper-container"]}`}
         mousewheel={true}
         onSwiper={(swiper) => (swiperRef.current = swiper)} // Store Swiper instance
       >
@@ -128,13 +130,13 @@ const FilterSection = () => {
               <span
                 className={`text-[15px] font-medium uppercase tracking-tighter ${
                   activeSection === section.id
-                    ? "active-swiper-slide text-[#ffffff]"
-                    : "text-[#58547b] group-hover:text-[#9f9ea8]"
+                    ? `${styles["active-swiper-slide"]} text-[#ffffff]`
+                    : `text-[#58547b] group-hover:text-[#9f9ea8]`
                 } transition-colors duration-300`}
               >
                 {section.label}
               </span>
-              {activeSection === section.id && <div className="active-gradient"></div>}
+              {activeSection === section.id && <div className={`${styles["active-gradient"]}`}></div>}
             </div>
           </SwiperSlide>
         ))}
@@ -153,13 +155,18 @@ const FilterPriceButton = ({
   priceRange?: string;
 }) => {
   return (
-    <div className={`filter-price-button h-full ${isActive ? "active" : ""}`} onClick={toggleActiveState}>
+    <div
+      className={`${styles["filter-price-button"]} h-full ${isActive ? `${styles["active"]}` : ""}`}
+      onClick={toggleActiveState}
+    >
       <div className="text-[15px] text-[#e4dcfc] tracking-tighter uppercase">
         <span className={!priceRange ? "" : "text-[#4af1b8]"}>$</span>
         <span className=""> PRICE</span>
         {priceRange && <div className="text-[#385866] text-[12px] font-semibold"> {priceRange}</div>}
       </div>
-      <div className={`arrow-icon bg-[#9793ba] w-[16px] h-[8px] ${isActive ? "active" : ""}`}></div>
+      <div
+        className={`${styles["arrow-icon"]} bg-[#9793ba] w-[16px] h-[8px] ${isActive ? `${styles["active"]}` : ""}`}
+      ></div>
     </div>
   );
 };
@@ -228,8 +235,10 @@ const MainPageFilter = () => {
   };
 
   return (
-    <div className="sticky top-0 z-10 rounded-[20px] swiper-container">
-      <div className="main-page-filter flex h-[70px] relative items-center justify-between overflow-hidden">
+    <div className={`${styles["swiper-container"]} sticky top-0 z-10 rounded-[20px]`}>
+      <div
+        className={`${styles["main-page-filter"]} flex h-[70px] relative items-center justify-between overflow-hidden`}
+      >
         <FilterToTopButton />
         <FilterSection />
         <FilterPriceButton
@@ -238,7 +247,9 @@ const MainPageFilter = () => {
           priceRange={priceRangeText}
         />
       </div>
-      <div className={`price-filter-wrapper flex items-center justify-between ${isPriceFilterActive ? "active" : ""}`}>
+      <div
+        className={`${styles["price-filter-wrapper"]} flex items-center justify-between ${isPriceFilterActive ? `${styles["active"]}` : ""}`}
+      >
         <div className="h-full flex items-center">
           <div className="flex h-full items-center mx-8 ">
             <span className="text-[#9793ba] tracking-tighter text-[14px] mr-8">CHOOSE A PRICE</span>

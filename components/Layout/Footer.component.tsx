@@ -4,11 +4,13 @@ import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 
+import styles from "@/styles/components/layout/footer.module.css";
+
 const Footer = () => {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <footer className="footer show-bg grid grid-cols-3 grid-rows-[repeat(5,auto)_105px] mt-[105px] mx-auto w-full px-14 py-10 relative">
+    <footer className={`footer ${styles["show-bg"]} grid grid-cols-3 grid-rows-[repeat(5,auto)_105px] mt-[105px] mx-auto w-full px-14 py-10 relative`}>
       <div className="col-start-1 row-start-1">
         <Image src="/footer-logo.png" alt="Open cases" width={65} height={60} />
       </div>
@@ -118,7 +120,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="h-[40px] w-[40px] flex items-center justify-center opacity-80 hover:opacity-100 transition-opacity duration-300 cursor-pointer"
         >
-          <span className="community-icon"></span>
+          <span className={`${styles["community-icon"]}`}></span>
         </Link>
         <Link
           href="https://discord.gg/NZz8kYJdmA"
@@ -126,7 +128,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="h-[40px] w-[40px] flex items-center justify-center opacity-80 hover:opacity-100 transition-opacity duration-300 cursor-pointer"
         >
-          <span className="discord-icon"></span>
+          <span className={`${styles["discord-icon"]}`}></span>
         </Link>
         <Link
           href="https://facebook.com/huko.fpt"
@@ -134,20 +136,20 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="h-[40px] w-[40px] flex items-center justify-center opacity-80 hover:opacity-100 transition-opacity duration-300 cursor-pointer"
         >
-          <span className="facebook-icon"></span>
+          <span className={`${styles["facebook-icon"]}`}></span>
         </Link>
       </div>
       <div className="flex flex-col col-start-2 row-start-1 row-end-5 items-center justify-end">
         <p className="text-[24px] font-bold tracking-tighter text-center uppercase text-white">
           Your favorite skin is here
         </p>
-        <button className="app-button">
-          <div className="button__content">Check out</div>
+        <button className={`${styles["app-button"]}`}>
+          <div>Check out</div>
         </button>
       </div>
       <div className="col-start-3 row-start-2 justify-self-end mt-2.5">
         <Link href="/privacy-policy" className="flex text-[#9793ba] gap-2">
-          <span className="email-icon"></span>
+          <span className={`${styles["email-icon"]}`}></span>
           <span>lynnie.nguyen.bns@gmail.com</span>
         </Link>
       </div>

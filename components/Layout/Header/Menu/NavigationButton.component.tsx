@@ -1,5 +1,7 @@
 import React from "react";
 
+import styles from "@/styles/components/layout/header.module.css";
+
 import {
   UpgradeIcon,
   MissionIcon,
@@ -25,8 +27,10 @@ const iconMap: Record<string, React.ReactNode> = {
 
 export const Button = ({ icon, label }: Props) => {
   return (
-    <div className="header-button-wrapper relative">
-      <div className="header-text-wrapper h-full relative flex items-center hover:opacity-80 transition-all duration-300 cursor-pointer">
+    <div className={`${styles["header-button-wrapper"]} relative`}>
+      <div
+        className={`${styles["header-text-wrapper"]} h-full relative flex items-center hover:opacity-80 transition-all duration-300 cursor-pointer`}
+      >
         <div>{iconMap[icon]}</div>
         <div className="text-[12px] ml-3 text-white">{label}</div>
       </div>

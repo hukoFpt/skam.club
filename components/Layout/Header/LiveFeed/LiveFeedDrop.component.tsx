@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
+import styles from "@/styles/components/layout/header.module.css"; // Assuming you have a CSS module for styles
+
 type Props = {
   isFromBattle: boolean;
   rarity: number;
@@ -22,8 +24,8 @@ const rarityMap: Record<number, string> = {
 export const LiveFeedDrop = ({ isFromBattle, rarity, image, weapon, finish }: Props) => {
   return (
     <div className={rarityMap[rarity] || ""}>
-      <div className={`relative rarity-${rarity} w-full h-full`}>
-        {isFromBattle && <span className="live-drop-battle"></span>}
+      <div className={`relative ${styles[`rarity-${rarity}`]} w-full h-full`}>
+        {isFromBattle && <span className={`${styles["live-drop-battle"]}`}></span>}
         <div className="flex w-full items-center justify-center gap-2 h-full pb-2.5 relative">
           <Image src={image} alt={weapon} width={107} height={80} className="mt-[-9px]" />
           <span className="absolute bottom-[19px] w-[90%] left-[7px] text-[#9793ba] text-[11px] opacity-70 truncate">

@@ -1,5 +1,7 @@
 "use client";
 
+import styles from "@/styles/components/layout/header.module.css";
+
 import { AddFundIcon, MoneyBalanceIcon, WeaponBalanceIcon } from "@/components/UI/Icons/Layout/Header/Menu.icon";
 import { useState } from "react";
 
@@ -11,7 +13,7 @@ export const UserMoney = ({ money_balance, weapon_balance }: Props) => {
   const [hovered, setHovered] = useState(false);
 
   return (
-    <div className="user-money relative flex items-center gap-2 h-12 px-4">
+    <div className={`${styles["user-money"]} relative flex items-center gap-2 h-12 px-4`}>
       <div className="flex flex-col items-start">
         <div className="flex gap-1.5 group items-center justify-center cursor-pointer">
           <MoneyBalanceIcon

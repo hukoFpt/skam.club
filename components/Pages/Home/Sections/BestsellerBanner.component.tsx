@@ -1,8 +1,10 @@
 import Image from "next/image";
 
+import styles from "@/styles/pages/home.module.css";
+
 const BestsellerBanner = () => {
   return (
-    <div className="pickem-banner">
+    <div className={`${styles["pickem-banner"]}`}>
       <div className="flex flex-col max-w-[1175px] px-5 mx-auto gap-[41px]">
         <div>
           <Image src="/major-logo.png" alt="Bestseller Banner" width={283} height={84} />
@@ -13,7 +15,7 @@ const BestsellerBanner = () => {
           </p>
         </div>
         <div className="self-end">
-          <p className="pickem-banner__prize-pool-title-text flex flex-col">
+          <p className={`${styles["pickem-banner__prize-pool-title-text"]} flex flex-col`}>
             <span>Pick&apos;em</span> with Skin.Club!
           </p>
           <p className="mt-3 uppercase">
@@ -22,7 +24,7 @@ const BestsellerBanner = () => {
           </p>
           <a
             href="https://pickem.skin.club/en"
-            className="pickem-banner__button"
+            className={`${styles["pickem-banner__button"]}`}
             target="_blank"
             rel="noopener noreferrer"
           >
