@@ -1,7 +1,7 @@
-import EventBanner from "@/components/molecules/Home/EventBanner.component";
-import MainPageFilter from "@/components/molecules/Home/MainPageFilter.component";
+import EventBanner from "@/components/Pages/Home/EventBanner.component";
+import MainPageFilter from "@/components/Pages/Home/MainPageFilter.component";
 
-import { SectionAccordion } from "@/components/molecules/Home/Sections/SectionsAccordion.component";
+import { SectionAccordion } from "@/components/Pages/Home/Sections/SectionsAccordion.component";
 
 import { Section, SECTIONS_DATA } from "@/constants/sections.constant";
 
@@ -22,9 +22,7 @@ export default function HomePage() {
     <main className="home-page">
       <EventBanner />
       <MainPageFilter />
-      <section className="sections-container">
-        {SECTIONS_DATA.map(renderSection)}
-      </section>
+      <section className="sections-container">{SECTIONS_DATA.map(renderSection)}</section>
     </main>
   );
 }

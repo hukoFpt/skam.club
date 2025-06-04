@@ -2,7 +2,7 @@ import { Geist, Geist_Mono, Montserrat, Michroma, Orbitron } from "next/font/goo
 import localFont from "next/font/local";
 import "./globals.css";
 
-import ClientWrapper from "@/components/organisms/ClientWrapper.component";
+import ClientWrapper from "@/components/Layout/ClientWrapper.component";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

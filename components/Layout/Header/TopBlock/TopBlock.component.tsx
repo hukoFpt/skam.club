@@ -1,4 +1,4 @@
-import { Counter } from "@/components/molecules/Header/TopBlock/Counter.component";
+import { Counter } from "@/components/Layout/Header/TopBlock/Counter.component";
 
 const TopBlock = () => {
   return (

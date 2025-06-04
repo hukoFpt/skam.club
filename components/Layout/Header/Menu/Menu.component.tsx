@@ -1,12 +1,13 @@
 "use client";
 
-import { SettingsIcon } from "@/components/atoms/icons/Layout/Header/Menu.icon";
-import Logo from "@/components/molecules/Header/Menu/Logo.component";
-import LogoutButton from "@/components/molecules/Header/Menu/Logout.component";
-import { Button } from "@/components/molecules/Header/Menu/NavigationButton.component";
-import { UserAvatar } from "@/components/molecules/Header/Menu/UserAvatar.component";
-import { UserMoney } from "@/components/molecules/Header/Menu/UserMoney.component";
 import { useEffect, useState } from "react";
+
+import Logo from "@/components/Layout/Header/Menu/Logo.component";
+import LogoutButton from "@/components/Layout/Header/Menu/Logout.component";
+import { Button } from "@/components/Layout/Header/Menu/NavigationButton.component";
+import { UserAvatar } from "@/components/Layout/Header/Menu/UserAvatar.component";
+import { UserMoney } from "@/components/Layout/Header/Menu/UserMoney.component";
+import { SettingsIcon } from "@/components/UI/Icons/Layout/Header/Menu.icon";
 
 const StickyProfile = () => {
   const [scrollY, setScrollY] = useState(0);

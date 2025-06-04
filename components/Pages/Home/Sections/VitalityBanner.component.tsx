@@ -1,4 +1,4 @@
-import { LogoIcon } from "@/components/atoms/icons/Layout/Header/Menu.icon";
+import { LogoIcon } from "@/components/UI/Icons/Layout/Header/Menu.icon";
 import Image from "next/image";
 
 const vitalityBanner = () => {

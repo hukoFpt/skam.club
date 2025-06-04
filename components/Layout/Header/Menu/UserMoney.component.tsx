@@ -1,6 +1,6 @@
 "use client";
 
-import { AddFundIcon, MoneyBalanceIcon, WeaponBalanceIcon } from "@/components/atoms/icons/Layout/Header/Menu.icon";
+import { AddFundIcon, MoneyBalanceIcon, WeaponBalanceIcon } from "@/components/UI/Icons/Layout/Header/Menu.icon";
 import { useState } from "react";
 
 type Props = {

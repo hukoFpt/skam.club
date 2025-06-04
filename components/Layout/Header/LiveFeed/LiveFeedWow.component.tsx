@@ -1,5 +1,6 @@
-import { FireIcon } from "@/components/atoms/icons/Layout/Header/LiveFeed.icon";
 import React from "react";
+
+import { FireIcon } from "@/components/UI/Icons/Layout/Header/LiveFeed.icon";
 
 const LiveFeedWow = () => {
   return (

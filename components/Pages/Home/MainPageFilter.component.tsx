@@ -1,6 +1,6 @@
 "use client";
 
-import { HomeIcon } from "@/components/atoms/icons/Home/MainPageFilter.icon";
+import { HomeIcon } from "@/components/UI/Icons/Home/MainPageFilter.icon";
 import React, { useEffect, useRef, useState } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,8 +10,8 @@ import "react-range-slider-input/dist/style.css";
 import "swiper/css";
 import "swiper/css/free-mode";
 import { Mousewheel } from "swiper/modules";
-import HexagonCheckbox from "@/components/atoms/icons/Home/HexagonCheckbox.icon";
-import XIcon from "@/components/atoms/icons/Home/XIcon.icon";
+import HexagonCheckbox from "@/components/UI/Icons/Home/HexagonCheckbox.icon";
+import XIcon from "@/components/UI/Icons/Home/XIcon.icon";
 
 const FilterToTopButton = () => {
   const scrollToTop = () => {

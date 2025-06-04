@@ -1,6 +1,5 @@
 import React from "react";
 
-import { Label } from "@/components/atoms/labels/Header/Menu/Navigation/Header.label";
 import {
   UpgradeIcon,
   MissionIcon,
@@ -8,7 +7,7 @@ import {
   BattleIcon,
   DailyCaseIcon,
   ExchangeIcon,
-} from "@/components/atoms/icons/Layout/Header/Menu.icon";
+} from "@/components/UI/Icons/Layout/Header/Menu.icon";
 
 type Props = {
   icon: string;
@@ -29,7 +28,7 @@ export const Button = ({ icon, label }: Props) => {
     <div className="header-button-wrapper relative">
       <div className="header-text-wrapper h-full relative flex items-center hover:opacity-80 transition-all duration-300 cursor-pointer">
         <div>{iconMap[icon]}</div>
-        <Label name={label} />
+        <div className="text-[12px] ml-3 text-white">{label}</div>
       </div>
     </div>
   );

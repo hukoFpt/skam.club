@@ -2,7 +2,7 @@
 
 import React, { ReactNode } from "react";
 import Header from "./Header/Header.component";
-import Footer from "./Footer/Footer.component";
+import Footer from "./Footer.component";
 
 type ClientWrapperProps = {
   children: ReactNode;
