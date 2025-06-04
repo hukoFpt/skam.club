@@ -46,7 +46,7 @@ Make sure you have the following installed:
 
 ### 0. **Layout**
 
-- [ ] Homepage.
+- [x] Homepage.
 - [ ] Skin Wiki.
 - [ ] Inventory.
 - [ ] Add fund.

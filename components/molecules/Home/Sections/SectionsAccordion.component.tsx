@@ -1,8 +1,13 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
-import { LogoIcon } from "@/components/atoms/icons/Layout/Header/Menu.icon";
+
+import EventBackground from "./EventBackground.component";
+import BestsellerBanner from "./BestsellerBanner.component";
+import CommunityBackground from "./CommunityBackground.component";
+import VitalityBanner from "./VitalityBanner.component";
+import BattleBanner from "./BattleBanner.component";
+import KarriganBanner from "./KarriganBanner.component";
 
 type Props = {
   id: number;
@@ -14,6 +19,25 @@ type Props = {
 export const SectionAccordion = ({ id, title, description, type }: Props) => {
   const [isActive, setIsActive] = React.useState(false);
 
+  const renderSectionBackground = () => {
+    switch (type) {
+      case "event":
+        return <EventBackground />;
+      case "bestseller":
+        return <BestsellerBanner />;
+      case "community":
+        return <CommunityBackground />;
+      case "vitality":
+        return <VitalityBanner />;
+      case "battle":
+        return <BattleBanner />;
+      case "karrigan":
+        return <KarriganBanner />;
+      default:
+        return null;
+    }
+  };
+
   return (
     <section
       id={`section-${id}`}
@@ -23,80 +47,10 @@ export const SectionAccordion = ({ id, title, description, type }: Props) => {
           : isActive
             ? `pb-[108px] ${type !== "event" ? "section-accordion" : ""}`
             : "pb-[54px]"
-      } ${type === "event" ? "bg-transparent" : ""}`}
+      } ${type === "event" ? "bg-transparent" : ""} ${type !== "community" ? "overflow-hidden" : ""}`}
     >
-      {type === "event" && (
-        <div className="absolute h-full w-full opacity-20 -z-1 top-0 left-0 overflow-hidden">
-          <video autoPlay loop playsInline preload="none" muted className="object-contain overflow-clip">
-            <source src="/videos/event-animation-bg.mp4" type="video/mp4" />
-          </video>
-        </div>
-      )}
-      {type === "bestseller" && (
-        <div className="pickem-banner">
-          <div className="flex flex-col max-w-[1175px] px-5 mx-auto gap-[41px]">
-            <div>
-              <Image src="/major-logo.png" alt="Bestseller Banner" width={283} height={84} />
-              <p className="text-[20px] text-[#0ffdfd] font-bold mt-6 uppercase">
-                <time dateTime="2025-05-05">5 may</time>
-                {" - "}
-                <time dateTime="2025-06-22">22 jun</time>
-              </p>
-            </div>
-            <div className="self-end">
-              <p className="pickem-banner__prize-pool-title-text flex flex-col">
-                <span>Pick&apos;em</span> with Skin.Club!
-              </p>
-              <p className="mt-3 uppercase">
-                <span className="text-[#0ffdfd] font-bold text-[31px]">350 skins</span>
-                <span className="text-[#fffefe] font-bold text-[16px] ml-[9px]">prize pool</span>
-              </p>
-              <a
-                href="https://pickem.skin.club/en"
-                className="pickem-banner__button"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Participate
-              </a>
-            </div>
-          </div>
-        </div>
-      )}
-      {type === "community" && (
-        <div className="w-full">
-          <div className="section-title__new-label flex items-center absolute top-[-12px] left-[230px] text-[17px] rounded font-semibold px-1.5 bg-[#cf3464] z-1">
-            {"NEW (but not implemented)"}
-          </div>
-          <video
-            autoPlay
-            loop
-            playsInline
-            preload="none"
-            muted
-            className="section-title__animation-bg object-contain overflow-hidden"
-          >
-            <source src="/videos/community-section-animation.mp4" type="video/mp4" />
-          </video>
-        </div>
-      )}
-      {type === "vitality" && (
-        <div className="relative section-title__vitality-banner flex flex-col gap-[48px] items-center justify-center pb-48">
-          <Image src="/vitality-logo.png" alt="Vitality Banner" width={328} height={79} />
-          <div className="flex w-full items-center justify-center gap-2 mt-4">
-            <LogoIcon height={48} width={48}/>
-            <div className="text-[13px] text-white font-medium tracking-widest uppercase">Major Partner</div>
-            <Image
-              src="/vitality.png"
-              alt="Vitality Logo"
-              width={48}
-              height={48}
-              className="rounded-full"
-            />
-          </div>
-        </div>
-      )}
-      <div className="border-t border-[#1e1b35] pt-11 relative">
+      {renderSectionBackground()}
+      <div className={`pt-11 relative ${type !== "battle" && type !== "karrigan" ? "border-t border-[#1e1b35]" : ""}`}>
         <div
           className={`title-number large font-nechao opacity-10 ${isActive ? "text-[96px] top-[45px] left-[30px]" : "text-[40px] top-[27px] left-[56px]"} `}
         >
