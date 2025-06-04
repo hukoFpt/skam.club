@@ -1,14 +1,7 @@
 import React from "react";
 
 const DiscordIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-  <svg
-    width={20}
-    height={16}
-    fill="none"
-    viewBox="0 0 20 16"
-    xmlns="http://www.w3.org/2000/svg"
-    {...props}
-  >
+  <svg width={20} height={16} fill="none" viewBox="0 0 20 16" xmlns="http://www.w3.org/2000/svg" {...props}>
     <g clipPath="url(#a)" opacity={0.8}>
       <path
         fill="#9793BA"

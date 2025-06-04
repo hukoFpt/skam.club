@@ -2,31 +2,31 @@ export interface Section {
   id: string;
   label: string;
   description: string;
-  type: 'common' | 'event' | 'bestseller' | 'community' | 'vitality' | 'battle' | 'karrigan';
+  type: "common" | "event" | "bestseller" | "community" | "vitality" | "battle" | "karrigan";
 }
 
 export const SECTION_TYPES = {
-  COMMON: 'common',
-  EVENT: 'event',
-  BESTSELLER: 'bestseller',
-  COMMUNITY: 'community',
-  VITALITY: 'vitality',
-  BATTLE: 'battle',
-  KARRIGAN: 'karrigan',
+  COMMON: "common",
+  EVENT: "event",
+  BESTSELLER: "bestseller",
+  COMMUNITY: "community",
+  VITALITY: "vitality",
+  BATTLE: "battle",
+  KARRIGAN: "karrigan",
 } as const;
 
 export const SECTIONS_DATA: Section[] = [
-  { 
-    id: "0", 
-    label: "Special for you", 
-    description: "Your favorite, free and daily cases", 
-    type: SECTION_TYPES.COMMON 
+  {
+    id: "0",
+    label: "Special for you",
+    description: "Your favorite, free and daily cases",
+    type: SECTION_TYPES.COMMON,
   },
-  { 
-    id: "1", 
-    label: "Event Cases", 
-    description: "", 
-    type: SECTION_TYPES.EVENT 
+  {
+    id: "1",
+    label: "Event Cases",
+    description: "",
+    type: SECTION_TYPES.EVENT,
   },
   {
     id: "2",
@@ -40,41 +40,41 @@ export const SECTIONS_DATA: Section[] = [
     description: "Dive into the diversity of our community's cases",
     type: SECTION_TYPES.COMMUNITY,
   },
-  { 
-    id: "4", 
-    label: "Discord Cases", 
-    description: "", 
-    type: SECTION_TYPES.COMMON 
+  {
+    id: "4",
+    label: "Discord Cases",
+    description: "",
+    type: SECTION_TYPES.COMMON,
   },
-  { 
-    id: "5", 
-    label: "Armory Bundle", 
-    description: "", 
-    type: SECTION_TYPES.COMMON 
+  {
+    id: "5",
+    label: "Armory Bundle",
+    description: "",
+    type: SECTION_TYPES.COMMON,
   },
-  { 
-    id: "6", 
-    label: "Color Maniac", 
-    description: "Enjoy the Thrill of Color Mania!", 
-    type: SECTION_TYPES.COMMON 
+  {
+    id: "6",
+    label: "Color Maniac",
+    description: "Enjoy the Thrill of Color Mania!",
+    type: SECTION_TYPES.COMMON,
   },
-  { 
-    id: "7", 
-    label: "Vitality's Choice", 
-    description: "", 
-    type: SECTION_TYPES.VITALITY 
+  {
+    id: "7",
+    label: "Vitality's Choice",
+    description: "",
+    type: SECTION_TYPES.VITALITY,
   },
-  { 
-    id: "8", 
-    label: "Crazy Moves", 
-    description: "That's some crazy deals — take it or leave it", 
-    type: SECTION_TYPES.COMMON 
+  {
+    id: "8",
+    label: "Crazy Moves",
+    description: "That's some crazy deals — take it or leave it",
+    type: SECTION_TYPES.COMMON,
   },
-  { 
-    id: "9", 
-    label: "Anime Cases", 
-    description: "Choose your favorite anime title right here", 
-    type: SECTION_TYPES.COMMON 
+  {
+    id: "9",
+    label: "Anime Cases",
+    description: "Choose your favorite anime title right here",
+    type: SECTION_TYPES.COMMON,
   },
   {
     id: "10",
@@ -88,23 +88,23 @@ export const SECTIONS_DATA: Section[] = [
     description: "Craft your own unique skin. Find a sticker for your favorite skin",
     type: SECTION_TYPES.COMMON,
   },
-  { 
-    id: "12", 
-    label: "Farm Cases", 
-    description: "All or nothing cases", 
-    type: SECTION_TYPES.COMMON 
+  {
+    id: "12",
+    label: "Farm Cases",
+    description: "All or nothing cases",
+    type: SECTION_TYPES.COMMON,
   },
-  { 
-    id: "13", 
-    label: "Collection Vault", 
-    description: "", 
-    type: SECTION_TYPES.COMMON 
+  {
+    id: "13",
+    label: "Collection Vault",
+    description: "",
+    type: SECTION_TYPES.COMMON,
   },
-  { 
-    id: "14", 
-    label: "Special Cases", 
-    description: "Participate in the regular daily case giveaways", 
-    type: SECTION_TYPES.COMMON 
+  {
+    id: "14",
+    label: "Special Cases",
+    description: "Participate in the regular daily case giveaways",
+    type: SECTION_TYPES.COMMON,
   },
   {
     id: "15",
@@ -124,11 +124,11 @@ export const SECTIONS_DATA: Section[] = [
     description: "Open the most exclusive, unique and striking cases on the website",
     type: SECTION_TYPES.COMMON,
   },
-  { 
-    id: "18", 
-    label: "Creators Cases", 
-    description: "Get a skin of your favorite YouTuber", 
-    type: SECTION_TYPES.COMMON 
+  {
+    id: "18",
+    label: "Creators Cases",
+    description: "Get a skin of your favorite YouTuber",
+    type: SECTION_TYPES.COMMON,
   },
   {
     id: "19",
@@ -142,10 +142,10 @@ export const SECTIONS_DATA: Section[] = [
     description: "Try out classic variants of cases that are better than Valve's",
     type: SECTION_TYPES.COMMON,
   },
-  { 
-    id: "21", 
-    label: "Collections", 
-    description: "Complete your set from maps and collections cases", 
-    type: SECTION_TYPES.COMMON 
+  {
+    id: "21",
+    label: "Collections",
+    description: "Complete your set from maps and collections cases",
+    type: SECTION_TYPES.COMMON,
   },
 ];

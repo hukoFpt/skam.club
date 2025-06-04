@@ -67,7 +67,7 @@ const FilterSection = () => {
   const handleSectionClick = (id: string) => {
     const targetSection = document.getElementById(`section-${id}`);
     if (targetSection) {
-      const offset = 100; 
+      const offset = 100;
       const top = targetSection.getBoundingClientRect().top + window.scrollY - offset;
 
       window.scrollTo({

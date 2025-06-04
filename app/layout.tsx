@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono, Montserrat, Michroma, Orbitron } from "next/font/google";
 import localFont from "next/font/local";
-import "./globals.css";
+import "@/styles/globals.css";
 
 import ClientWrapper from "@/components/Layout/ClientWrapper.component";
 

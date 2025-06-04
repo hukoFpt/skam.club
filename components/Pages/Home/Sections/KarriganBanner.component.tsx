@@ -7,7 +7,9 @@ const KarriganBanner = () => {
         <Image src="/karrigan-first-photo.png" alt="Karrigan Banner" width={363} height={352} />
         <div className="flex flex-col mt-24 items-center">
           <Image src="/karrigan-text.png" alt="Karrigan Banner" width={398} height={100} />
-          <div className="text-[18px] text-[#9692b8] text-center mt-[25px] w-[440px] ">Try out cases that have been approved by the world champion and our big friend — Karrigan.</div>
+          <div className="text-[18px] text-[#9692b8] text-center mt-[25px] w-[440px] ">
+            Try out cases that have been approved by the world champion and our big friend — Karrigan.
+          </div>
         </div>
         <Image src="/karrigan-second-photo.png" alt="Karrigan Banner" width={369} height={372} />
       </div>
