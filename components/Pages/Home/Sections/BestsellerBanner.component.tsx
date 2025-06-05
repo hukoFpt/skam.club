@@ -7,7 +7,7 @@ const BestsellerBanner = () => {
     <div className={`${styles["pickem-banner"]}`}>
       <div className="flex flex-col max-w-[1175px] px-5 mx-auto gap-[41px]">
         <div>
-          <Image src="/major-logo.png" alt="Bestseller Banner" width={283} height={84} />
+          <Image src="/images/home/major-logo.png" alt="Bestseller Banner" width={283} height={84} />
           <p className="text-[20px] text-[#0ffdfd] font-bold mt-6 uppercase">
             <time dateTime="2025-05-05">5 may</time>
             {" - "}

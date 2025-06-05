@@ -3,7 +3,7 @@
   position: absolute;
   z-index: -1;
   inset: 0;
-  background-image: url("/header-bg.jpg");
+  background-image: url("/images/layout/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

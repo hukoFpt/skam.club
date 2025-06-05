@@ -4,7 +4,7 @@ import React from "react";
 export const FireIcon = (props: Omit<ImageProps, "src" | "alt">) => (
   <Image
     unoptimized
-    src="/fire.gif"
+    src="/images/layout/fire.gif"
     alt="Fire"
     width={29}
     height={38}

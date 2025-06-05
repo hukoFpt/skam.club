@@ -22,7 +22,7 @@ type Props = {
 };
 
 export const SectionAccordion = ({ id, title, description, type }: Props) => {
-  const [isActive, setIsActive] = React.useState(false);
+  const [isActive, setIsActive] = React.useState(true);
   const cases = getCasesBySection(id.toString());
 
   const sectionHeight = 460 * Math.ceil(cases.length / 5);

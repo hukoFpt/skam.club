@@ -3,7 +3,7 @@
 }
 
 .show-bg::before {
-  background: url(/karrigan.png) no-repeat;
+  background: url("/images/layout/karrigan.png") no-repeat;
   content: "";
   height: 545px;
   left: 50%;

@@ -28,7 +28,7 @@ export const BattleWidgetCard = ({ round, price }: BattleWidgetCardProps) => {
           <div className="text-[#4af1b8] font-semibold text-[16px]">$ {price.toFixed(2)}</div>
         </div>
         <div className={`${styles["case-list"]} flex items-center justify-center h-[120px] w-full`}>
-          <Image src="/sample-case.png" alt="sample case" width={120} height={120} className="object-contain" />
+          <Image src="/images/home/sample-case.png" alt="sample case" width={120} height={120} className="object-contain" />
         </div>
         <div className={`${styles["player-list"]} relative flex items-center justify-center`}>
           <div className={`${styles["sample-user-avatar"]} mx-[8px]`}>

@@ -179,7 +179,7 @@
 }
 
 .pickem-banner {
-  background: url("/pickem-banner.jpg") no-repeat;
+  background: url("/images/home/pickem-banner.jpg") no-repeat;
   background-position: top;
   background-size: cover;
   padding: 73px 0 90px;
@@ -223,7 +223,7 @@
 
 .section-accordion {
   transition: background-image 0.5s ease-in-out;
-  background: url("/section-bg.webp") repeat-y;
+  background: url("/images/home/section-bg.webp") repeat-y;
 }
 
 .section-title__new-label::before {
@@ -283,14 +283,14 @@
 }
 
 .section-title__vitality-banner {
-  background: url("/vitality-banner.png") no-repeat top;
+  background: url("/images/home/vitality-banner.png") no-repeat top;
   height: 648px;
   margin-bottom: -278px;
   width: 100%;
 }
 
 .battle-banner::before {
-  background: url("/battle-section-bg.jpg") no-repeat;
+  background: url("/images/home/battle-section-bg.jpg") no-repeat;
   content: "";
   position: absolute;
   top: 0;
@@ -513,7 +513,7 @@
 }
 
 .karrigan-banner-block::before {
-  background: url("/karrigan-banner.jpg") no-repeat;
+  background: url("/images/home/karrigan-banner.jpg") no-repeat;
   content: "";
   height: 648px;
   position: absolute;

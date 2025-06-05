@@ -53,7 +53,7 @@ export const CaseCard = ({ case: caseData, onClick }: CaseCardProps) => {
       </div>
       <span className={`${styles["feast-point"]} flex items-center justify-center opacity-0 group-hover:opacity-100`}>
         +{caseData.eventPoint}
-        <Image src="/austin-blast.png" alt="Feast Point Icon" width={20} height={20} className="inline-block ml-1" />
+        <Image src="/images/home/austin-blast.png" alt="Feast Point Icon" width={20} height={20} className="inline-block ml-1" />
       </span>
       {caseData.price === 0 ? (
         <div>

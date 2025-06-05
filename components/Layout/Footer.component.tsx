@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer className={`footer ${styles["show-bg"]} grid grid-cols-3 grid-rows-[repeat(5,auto)_105px] mt-[105px] mx-auto w-full px-14 py-10 relative`}>
       <div className="col-start-1 row-start-1">
-        <Image src="/footer-logo.png" alt="Open cases" width={65} height={60} />
+        <Image src="/images/home/footer-logo.png" alt="Open cases" width={65} height={60} />
       </div>
       <div className="col-start-1 row-start-3 mt-6">
         <p className="text-[#9793ba] text-[16px] font-medium">Skam.Club © 2025</p>
