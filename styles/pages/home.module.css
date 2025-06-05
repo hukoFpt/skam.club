@@ -223,7 +223,7 @@
 
 .section-accordion {
   transition: background-image 0.5s ease-in-out;
-  background: url("/section-bg.webp") no-repeat;
+  background: url("/section-bg.webp") repeat-y;
 }
 
 .section-title__new-label::before {

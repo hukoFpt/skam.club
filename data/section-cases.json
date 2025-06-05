@@ -2,11 +2,2341 @@
   {
     "id": "lvl-3",
     "title": "Level 3",
-    "price": "Free",
-    "eventPoint": "0",
+    "price": 0,
+    "eventPoint": 0,
     "imageUrl": "https://cfdn.skin.club/iixekz9zfm/e22109e46b82e9e32ed181633a0cffad22b4858c.png",
     "caseUrl": "/cases/open/lvl-3",
     "likes": 0,
+    "tags": ""
+  },
+  {
+    "id": "lvl-10",
+    "title": "Level 10",
+    "price": 0,
+    "eventPoint": 0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/cfe8cc7b9652f8806671af7692b1fa3e1860735b.png",
+    "caseUrl": "/cases/open/lvl-10",
+    "likes": 0,
+    "tags": ""
+  },
+  {
+    "id": "lvl-20",
+    "title": "Level 20",
+    "price": 0,
+    "eventPoint": 0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/469de7d3b3c7851932e4f8873d2975458e562876.png",
+    "caseUrl": "/cases/open/lvl-20",
+    "likes": 0,
+    "tags": ""
+  },
+  {
+    "id": "lvl-30",
+    "title": "Level 30",
+    "price": 0,
+    "eventPoint": 0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/66086567e8624b3050c982079195b565d204a850.png",
+    "caseUrl": "/cases/open/lvl-30",
+    "likes": 0,
+    "tags": ""
+  },
+  {
+    "id": "lvl-40",
+    "title": "Level 40",
+    "price": 0,
+    "eventPoint": 0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/d7a434dac0e0f7f047f724fbb81d8981b6df9ea3.png",
+    "caseUrl": "/cases/open/lvl-40",
+    "likes": 0,
+    "tags": ""
+  },
+  {
+    "id": "lvl-50",
+    "title": "Level 50",
+    "price": 0,
+    "eventPoint": 0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/ed6c2789e98d70013fc795db2b5f417134f4cf09.png",
+    "caseUrl": "/cases/open/lvl-50",
+    "likes": 0,
+    "tags": ""
+  },
+  {
+    "id": "lvl-60",
+    "title": "Level 60",
+    "price": 0,
+    "eventPoint": 0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/1590a372c5f3e198b507302b524b64a8e14aae62.png",
+    "caseUrl": "/cases/open/lvl-60",
+    "likes": 0,
+    "tags": ""
+  },
+  {
+    "id": "lvl-70",
+    "title": "Level 70",
+    "price": 0,
+    "eventPoint": 0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/e44ededd8081164e5346b1a5ce57b072c6d7192c.png",
+    "caseUrl": "/cases/open/lvl-70",
+    "likes": 0,
+    "tags": ""
+  },
+  {
+    "id": "lvl-80",
+    "title": "Level 80",
+    "price": 0,
+    "eventPoint": 0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/4ba0c866ec51bca2064e98de8b9ec90462710222.png",
+    "caseUrl": "/cases/open/lvl-80",
+    "likes": 0,
+    "tags": ""
+  },
+  {
+    "id": "lvl-90",
+    "title": "Level 90",
+    "price": 0,
+    "eventPoint": 0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/52358a7b126cbd1a7c6e5209b7038e8367ed5040.png",
+    "caseUrl": "/cases/open/lvl-90",
+    "likes": 0,
+    "tags": ""
+  },
+  {
+    "id": "lvl-100",
+    "title": "Level 100",
+    "price": 0,
+    "eventPoint": 0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/5039890674d3fed626b008e3d2c0cc8d6f4711b2.png",
+    "caseUrl": "/cases/open/lvl-100",
+    "likes": 0,
+    "tags": ""
+  },
+  {
+    "id": "lvl-110",
+    "title": "Level 110",
+    "price": 0,
+    "eventPoint": 0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/6cf55996eb20b953ea8f9b69e21c9630614f29f7.png",
+    "caseUrl": "/cases/open/lvl-110",
+    "likes": 0,
+    "tags": ""
+  },
+  {
+    "id": "lvl-120",
+    "title": "Level 120",
+    "price": 0,
+    "eventPoint": 0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/ef12b08dd7d143aefba88888172678bfc064d040.png",
+    "caseUrl": "/cases/open/lvl-120",
+    "likes": 0,
+    "tags": ""
+  },
+  {
+    "id": "cowboy",
+    "title": "Cowboy",
+    "price": 0.38,
+    "eventPoint": 0.07,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/f38faf405bf8574352333b4ac94694f77712b1db.png",
+    "caseUrl": "/cases/open/cowboy-case",
+    "likes": 2086,
+    "tags": "new"
+  },
+  {
+    "id": "bat-bridge",
+    "title": "Bat Bridge",
+    "price": 4.08,
+    "eventPoint": 0.81,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/2a9cedc3bf755113fcbe2a5b0c49729ca5d7f212.png",
+    "caseUrl": "/cases/open/bat-bridge",
+    "likes": 424,
+    "tags": "new"
+  },
+  {
+    "id": "south-neon",
+    "title": "South Neon",
+    "price": 11.91,
+    "eventPoint": 2.38,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/0ee132d9643e0413e8387ae355b8f835219ec120.png",
+    "caseUrl": "/cases/open/south-neon",
+    "likes": 637,
+    "tags": "new"
+  },
+  {
+    "id": "live-frag",
+    "title": "Live & Frag",
+    "price": 44.25,
+    "eventPoint": 8.85,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/526ca35413759d984919b574c7a0bf73661e9247.png",
+    "caseUrl": "/cases/open/live-frag",
+    "likes": 423,
+    "tags": "new"
+  },
+  {
+    "id": "moody-center",
+    "title": "Moody Center",
+    "price": 76.58,
+    "eventPoint": 15.31,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/abce5b69dc20ddc6bb94bbef5864af7e8f26aacc.png",
+    "caseUrl": "/cases/open/moody-center",
+    "likes": 563,
+    "tags": "phases"
+  },
+  {
+    "id": "new-to-town",
+    "title": "New to Town",
+    "price": 0.35,
+    "eventPoint": 0.07,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/71cc03bf42cb6ed0725652cbfc87a4367b045716.png",
+    "caseUrl": "/cases/open/new-to-town",
+    "likes": 24596,
+    "tags": ""
+  },
+  {
+    "id": "electric-dreams",
+    "title": "Electric Dreams",
+    "price": 4.02,
+    "eventPoint": 0.8,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/ec042dd33ad1b18c12640e7da76e4ce457fa12b2.png",
+    "caseUrl": "/cases/open/electric-dreams",
+    "likes": 7826,
+    "tags": "hit"
+  },
+  {
+    "id": "canon-event",
+    "title": "Canon Event",
+    "price": 11.96,
+    "eventPoint": 2.39,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/e2b27656653d6663eacc3b1785ebf26e0010ac88.png",
+    "caseUrl": "/cases/open/canon-event",
+    "likes": 9307,
+    "tags": ""
+  },
+  {
+    "id": "steel-samurai",
+    "title": "Steel Samurai",
+    "price": 36.99,
+    "eventPoint": 7.39,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/6c65585e4852fdb634b1c6e87d26e3bdd20a0158.png",
+    "caseUrl": "/cases/open/steel-samurai",
+    "likes": 4943,
+    "tags": "phases"
+  },
+  {
+    "id": "galactic-phases",
+    "title": "Galactic Phases",
+    "price": 53.23,
+    "eventPoint": 10.64,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/50d637541d5afc1eb926dc17f13584d928d2a9e1.png",
+    "caseUrl": "/cases/open/galactic-phases",
+    "likes": 8422,
+    "tags": "phases"
+  },
+  {
+    "id": "stork",
+    "title": "Stork",
+    "price": 6.49,
+    "eventPoint": 1.29,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/67f0fb658b5a7b0a3f62f320a3b91017b2953b09.png",
+    "caseUrl": "/cases/open/stork",
+    "likes": 1192,
+    "tags": ""
+  },
+  {
+    "id": "chimpanzini-bananini",
+    "title": "Chimpanzini Bananini",
+    "price": 11.63,
+    "eventPoint": 2.32,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/27509ffe7c925206251d7c710321460d8627bb30.png",
+    "caseUrl": "/cases/open/chimpanzini-bananini",
+    "likes": 518,
+    "tags": ""
+  },
+  {
+    "id": "tiger",
+    "title": "Tiger",
+    "price": 14.76,
+    "eventPoint": 2.95,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/e8879b840243321a1852d9d511e69915300342e5.png",
+    "caseUrl": "/cases/open/tiger",
+    "likes": 401,
+    "tags": ""
+  },
+  {
+    "id": "snake",
+    "title": "Snake",
+    "price": 20.04,
+    "eventPoint": 4,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/7a6cce8ce300c6e38a8524577d036faf0b2c8d0d.png",
+    "caseUrl": "/cases/open/snake",
+    "likes": 462,
+    "tags": ""
+  },
+  {
+    "id": "photoroom",
+    "title": "Photoroom",
+    "price": 26.34,
+    "eventPoint": 5.26,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/5d94cb8129c96ae038ac36f138e1f29e29d1d514.png",
+    "caseUrl": "/cases/open/photoroom",
+    "likes": 573,
+    "tags": "phases"
+  },
+  {
+    "id": "small-arms",
+    "title": "Small Arms",
+    "price": 0.86,
+    "eventPoint": 0.17,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/afac3f8f65271f10820ca075fcae942c34b479b6.png",
+    "caseUrl": "/cases/open/small-arms",
+    "likes": 2569,
+    "tags": ""
+  },
+  {
+    "id": "missing-link",
+    "title": "Missing Link",
+    "price": 1.23,
+    "eventPoint": 0.24,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/4c31ca234b2fcf48375186bd70f5b90fd0e597e4.png",
+    "caseUrl": "/cases/open/missing-link",
+    "likes": 2152,
+    "tags": ""
+  },
+  {
+    "id": "graphic",
+    "title": "Graphic",
+    "price": 2.96,
+    "eventPoint": 0.59,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/f2db43977a8bacfe0b45ca009316869b5c93b33f.png",
+    "caseUrl": "/cases/open/graphic",
+    "likes": 3390,
+    "tags": ""
+  },
+  {
+    "id": "crakow-monster",
+    "title": "Crakow Monster",
+    "price": 4.41,
+    "eventPoint": 0.88,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/870bf4c5c7941de5ac01ee228d7b0045f8e97b22.png",
+    "caseUrl": "/cases/open/crakow-monster",
+    "likes": 2354,
+    "tags": ""
+  },
+  {
+    "id": "sport-and-field",
+    "title": "Sport and Field",
+    "price": 5.05,
+    "eventPoint": 1.01,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/38695a634432799ad0e0d5e570550719ac16282c.png",
+    "caseUrl": "/cases/open/sport-and-field",
+    "likes": 4093,
+    "tags": "hit"
+  },
+  {
+    "id": "amberglow",
+    "title": "Amberglow",
+    "price": 2.00,
+    "eventPoint": 0.4,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/3a53e46780820424ffafe5e4a77de235ca5870fa.png",
+    "caseUrl": "/cases/open/amberglow",
+    "likes": 6201,
+    "tags": ""
+  },
+  {
+    "id": "green-glimmer",
+    "title": "Green Glimmer",
+    "price": 2.19,
+    "eventPoint": 0.43,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/db55f8200aea1e34530035e105fca1172ced1fa8.png",
+    "caseUrl": "/cases/open/green-glimmer",
+    "likes": 3220,
+    "tags": ""
+  },
+  {
+    "id": "violet-veil",
+    "title": "Violet Veil",
+    "price": 2.31,
+    "eventPoint": 0.46,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/f11a43648e2830acab26774c5bdc553652a5a030.png",
+    "caseUrl": "/cases/open/violet-veil",
+    "likes": 4997,
+    "tags": ""
+  },
+  {
+    "id": "redwood-bash",
+    "title": "Redwood Bash",
+    "price": 2.46,
+    "eventPoint": 0.49,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/9cc9fbdd812733a5ae1e0104d10245faf01bb207.png",
+    "caseUrl": "/cases/open/redwood-bash",
+    "likes": 7043,
+    "tags": ""
+  },
+  {
+    "id": "lazuli-abyss",
+    "title": "Lazuli Abyss",
+    "price": 3.02,
+    "eventPoint": 0.6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/73deaeccef1eb7e431188a164941d203d33f5e1e.png",
+    "caseUrl": "/cases/open/lazuli-abyss",
+    "likes": 4600,
+    "tags": ""
+  },
+  {
+    "id": "sniper",
+    "title": "Sniper",
+    "price": 14.29,
+    "eventPoint": 2.85,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/26103641f8c900514da2bef1c16e64a4adc28e06.png",
+    "caseUrl": "/cases/open/sniper",
+    "likes": 1314,
+    "tags": "hit"
+  },
+  {
+    "id": "lurker",
+    "title": "Lurker",
+    "price": 13.48,
+    "eventPoint": 2.69,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/18d55dd8e51d67c3cfff16b9271b312ef6977577.png",
+    "caseUrl": "/cases/open/lurker",
+    "likes": 834,
+    "tags": ""
+  },
+  {
+    "id": "anchor",
+    "title": "Anchor",
+    "price": 14.37,
+    "eventPoint": 2.87,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/63e40f2e9e9de2b0312d18f9df33fd201b0380ef.png",
+    "caseUrl": "/cases/open/anchor",
+    "likes": 462,
+    "tags": ""
+  },
+  {
+    "id": "rifler",
+    "title": "Rifler",
+    "price": 15.12,
+    "eventPoint": 3.02,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/9832435c8903f710017825459292df6623c38a48.png",
+    "caseUrl": "/cases/open/rifler",
+    "likes": 901,
+    "tags": ""
+  },
+  {
+    "id": "igl",
+    "title": "IGL",
+    "price": 15.29,
+    "eventPoint": 3.05,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/08db895afe741c1b3b7d042546dccf7a0737f90c.png",
+    "caseUrl": "/cases/open/igl",
+    "likes": 1122,
+    "tags": ""
+  },
+  {
+    "id": "demon-step",
+    "title": "Demon Step",
+    "price": 3.06,
+    "eventPoint": 0.61,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/75dfc1ea8e994b482591f5cd38c15cad1b35f975.png",
+    "caseUrl": "/cases/open/demon-step",
+    "likes": 10124,
+    "tags": ""
+  },
+  {
+    "id": "trinity-force",
+    "title": "Trinity Force",
+    "price": 27.76,
+    "eventPoint": 5.55,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/37f6c944bcdbf30aeef969943c7779841a15f7b9.png",
+    "caseUrl": "/cases/open/trinity-force",
+    "likes": 10544,
+    "tags": "hit"
+  },
+  {
+    "id": "royalty",
+    "title": "Royalty",
+    "price": 67.94,
+    "eventPoint": 13.58,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/199df17d6d86bb14fa46785b5c8c84a92555b5b3.png",
+    "caseUrl": "/cases/open/royalty",
+    "likes": 3913,
+    "tags": ""
+  },
+  {
+    "id": "guardian-of-wilderness",
+    "title": "Guardian of Wilderness",
+    "price": 121.88,
+    "eventPoint": 24.37,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/2288c3dea38262521cea0833563733a2c70adc0a.png",
+    "caseUrl": "/cases/open/guardian-of-wilderness",
+    "likes": 2894,
+    "tags": ""
+  },
+  {
+    "id": "who-is-crazy",
+    "title": "Who's crazy?",
+    "price": 289.46,
+    "eventPoint": 57.89,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/9bd7f0f704ee911c768046380a14829f9c67b6dc.png",
+    "caseUrl": "/cases/open/who-is-crazy",
+    "likes": 3101,
+    "tags": ""
+  },
+  {
+    "id": "devils-footprint",
+    "title": "Devil's Footprint",
+    "price": 0.99,
+    "eventPoint": 0.19,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/2bb248ac583a5ff6c6d310b3d26e81e6f5f43fb7.png",
+    "caseUrl": "/cases/open/devils-footprint",
+    "likes": 1799,
+    "tags": "hit"
+  },
+  {
+    "id": "pirate-king",
+    "title": "Pirate King",
+    "price": 4.29,
+    "eventPoint": 0.85,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/682e2bdd5f04c6956e58294cf2281c08aa30c24b.png",
+    "caseUrl": "/cases/open/pirate-king",
+    "likes": 5357,
+    "tags": ""
+  },
+  {
+    "id": "turbo-okarun",
+    "title": "Turbo Okarun",
+    "price": 14.26,
+    "eventPoint": 2.85,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/d3aa8f02045abf57966e6d6dc478e25f01a7bd73.png",
+    "caseUrl": "/cases/open/turbo-okarun",
+    "likes": 2079,
+    "tags": "hit"
+  },
+  {
+    "id": "warden-of-the-abyss",
+    "title": "Warden of the Abyss",
+    "price": 24.49,
+    "eventPoint": 4.89,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/30195c189722bedfbdcdd109aec8f4ba89866083.png",
+    "caseUrl": "/cases/open/warden-of-the-abyss",
+    "likes": 398,
+    "tags": "phases"
+  },
+  {
+    "id": "the-honored-one",
+    "title": "The Honored One",
+    "price": 52.38,
+    "eventPoint": 10.47,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/a595d3f03d922a1e70ef610d309eb0c158093a92.png",
+    "caseUrl": "/cases/open/the-honored-one",
+    "likes": 3914,
+    "tags": ""
+  },
+  {
+    "id": "the-rivalry",
+    "title": "The Rivalry",
+    "price": 3.05,
+    "eventPoint": 0.61,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/520706fc196bc57e9f09e771a05234aeeffd547e.png",
+    "caseUrl": "/cases/open/the-rivalry",
+    "likes": 3657,
+    "tags": ""
+  },
+  {
+    "id": "ak47-battle",
+    "title": "AK-47 Battle",
+    "price": 3.95,
+    "eventPoint": 0.79,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/e690d70c78ed15a9f578fa11b788e27a8b85ad03.png",
+    "caseUrl": "/cases/open/ak47-battle",
+    "likes": 6915,
+    "tags": ""
+  },
+  {
+    "id": "awp-battle",
+    "title": "AWP Battle",
+    "price": 3.86,
+    "eventPoint": 0.77,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/dc6f7850d0d8a647948b4ef4c617b2d53ee027e4.png",
+    "caseUrl": "/cases/open/awp-battle",
+    "likes": 3696,
+    "tags": ""
+  },
+  {
+    "id": "balance-battle",
+    "title": "Balance Battle",
+    "price": 5.38,
+    "eventPoint": 1.07,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/5023f1f9fd5ef84444f476fb8d715c9f7e7c62f0.png",
+    "caseUrl": "/cases/open/balance-battle",
+    "likes": 4194,
+    "tags": "hit"
+  },
+  {
+    "id": "mid",
+    "title": "Mid",
+    "price": 5.67,
+    "eventPoint": 1.13,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/a04e302869668eb9922cbb9b257dc1a358d2c87d.png",
+    "caseUrl": "/cases/open/mid",
+    "likes": 2073,
+    "tags": ""
+  },
+  {
+    "id": "mystic-hundred",
+    "title": "Mystic Hundred",
+    "price": 6.11,
+    "eventPoint": 1.22,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/4ee49b24587b82311e5d445bd4acb27512529bc9.png",
+    "caseUrl": "/cases/open/mystic-hundred",
+    "likes": 6730,
+    "tags": "hit"
+  },
+  {
+    "id": "convert-battle",
+    "title": "Convert Battle",
+    "price": 10.52,
+    "eventPoint": 2.1,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/86bd57dd2548db99de18adeff07dc3e0e8bb8a08.png",
+    "caseUrl": "/cases/open/convert-battle",
+    "likes": 6654,
+    "tags": ""
+  },
+  {
+    "id": "monsters-paradise",
+    "title": "Monsters Paradise",
+    "price": 31.34,
+    "eventPoint": 6.26,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/7f6efa352b3de47a4a21c95e49b387cddede9abd.png",
+    "caseUrl": "/cases/open/monsters-paradise",
+    "likes": 42.61,
+    "tags": ""
+  },
+  {
+    "id": "gloves-combat",
+    "title": "Gloves Combat",
+    "price": 51.30,
+    "eventPoint": 10.26,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/8cb08628781073b937f787c664e33d79933c9b59.png",
+    "caseUrl": "/cases/open/gloves-combat",
+    "likes": 4131,
+    "tags": ""
+  },
+  {
+    "id": "gloves-battle",
+    "title": "Doppler Fight",
+    "price": 101.44,
+    "eventPoint": 20.28,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/fb201429de32d6fa1b9c967f90913ba058762f58.png",
+    "caseUrl": "/cases/open/gloves-battle",
+    "likes": 7189,
+    "tags": "hit"
+  },
+  {
+    "id": "top-battle",
+    "title": "Top Battle",
+    "price": 201.45,
+    "eventPoint": 40.29,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/dfb643333eadf08fc57153bfdafe157ca48a956e.png",
+    "caseUrl": "/cases/open/top-battle",
+    "likes": 4114,
+    "tags": ""
+  },
+  {
+    "id": "big-chicken",
+    "title": "BIG CHICKEN",
+    "price": 0.32,
+    "eventPoint": 0.06,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/bccbce745b6f87a29fd71db6bfe10082fc4356dc.png",
+    "caseUrl": "/cases/open/big-chicken",
+    "likes": 5984,
+    "tags": ""
+  },
+  {
+    "id": "kawaii",
+    "title": "KAWAII",
+    "price": 0.33,
+    "eventPoint": 0.06,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/09afb335081ef92afc4b572355c1e93633627f1a.png",
+    "caseUrl": "/cases/open/kawaii",
+    "likes": 5017,
+    "tags": ""
+  },
+  {
+    "id": "majors-legends",
+    "title": "Majors Legends",
+    "price": 0.36,
+    "eventPoint": 0.07,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/25e36a92d682fc67af70c71b94d6c6dc381bd87d.png",
+    "caseUrl": "/cases/open/majors-legends",
+    "likes": 1272,
+    "tags": ""
+  },
+  {
+    "id": "scratcher",
+    "title": "Scratcher",
+    "price": 0.50,
+    "eventPoint": 0.1,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/10fb686317a569e5728f67b32c246d9e5c6e7ff9.png",
+    "caseUrl": "/cases/open/scratcher",
+    "likes": 1756,
+    "tags": ""
+  },
+  {
+    "id": "meme-party",
+    "title": "Meme Party",
+    "price": 0.63,
+    "eventPoint": 0.12,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/58640cfb547a88872e21d55ea2e30aa3733c638c.png",
+    "caseUrl": "/cases/open/meme-party",
+    "likes": 1039,
+    "tags": ""
+  },
+  {
+    "id": "riddler",
+    "title": "Riddler",
+    "price": 0.96,
+    "eventPoint": 0.19,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/18691ff2c8c87877c2e6b894f65373f21c26d355.png",
+    "caseUrl": "/cases/open/riddler",
+    "likes": 1024,
+    "tags": "hit"
+  },
+  {
+    "id": "new-gen-top",
+    "title": "New Gen TOP",
+    "price": 1.47,
+    "eventPoint": 0.29,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/4570df081754a575250d8360eb9e7a9da2be9a66.png",
+    "caseUrl": "/cases/open/new-gen-top",
+    "likes": 945,
+    "tags": ""
+  },
+  {
+    "id": "it-moves",
+    "title": "It Moves",
+    "price": 1.92,
+    "eventPoint": 0.38,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/5e5ee1a286985f63e62d0d1ebdc1438326a02a76.png",
+    "caseUrl": "/cases/open/it-moves",
+    "likes": 612,
+    "tags": ""
+  },
+  {
+    "id": "holo-mania",
+    "title": "Holo-mania",
+    "price": 4.53,
+    "eventPoint": 0.9,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/2d408d4a32ad3f8b8ad608533cbf99029b427812.png",
+    "caseUrl": "/cases/open/holo-mania",
+    "likes": 651,
+    "tags": ""
+  },
+  {
+    "id": "dual-gleam",
+    "title": "Dual Gleam",
+    "price": 9.21,
+    "eventPoint": 1.84,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/25887ab129b3b16abe042291b5a4016f17fcc98d.png",
+    "caseUrl": "/cases/open/dual-gleam",
+    "likes": 1375,
+    "tags": ""
+  },
+  {
+    "id": "big-legends",
+    "title": "Big Legends",
+    "price": 20.73,
+    "eventPoint": 4.14,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/8fdc3fc4474dec22d4d67b97f56cb83510448cf2.png",
+    "caseUrl": "/cases/open/big-legends",
+    "likes": 2740,
+    "tags": ""
+  },
+  {
+    "id": "farm-zeus",
+    "title": "Farm Zeus",
+    "price": 0.38,
+    "eventPoint": 0.07,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/fdc24d9f279d332fcfd49cdcf2d78d514214d442.png",
+    "caseUrl": "/cases/open/farm-zeus",
+    "likes": 1027,
+    "tags": "hit"
+  },
+  {
+    "id": "farm-m4",
+    "title": "Farm M4",
+    "price": 0.52,
+    "eventPoint": 0.1,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/62215a1068ef2fd13e2970b178ed54d802fdab3b.png",
+    "caseUrl": "/cases/open/farm-m4",
+    "likes": 15243,
+    "tags": ""
+  },
+  {
+    "id": "farm-ak47",
+    "title": "Farm AK-47",
+    "price": 0.60,
+    "eventPoint": 0.12,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/5b36592880f382d56b103f478938bb54d793b6ab.png",
+    "caseUrl": "/cases/open/farm-ak47",
+    "likes": 16544,
+    "tags": ""
+  },
+  {
+    "id": "farm-awp",
+    "title": "Farm AWP",
+    "price": 0.73,
+    "eventPoint": 0.14,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/52c2288097c276dae6ac587a3752e94dab0d8169.png",
+    "caseUrl": "/cases/open/farm-awp",
+    "likes": 10031,
+    "tags": ""
+  },
+  {
+    "id": "farm-ct-pistols",
+    "title": "Farm CT Pistols",
+    "price": 1.16,
+    "eventPoint": 0.23,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/870fc8001ba10e1f214d239702867de9b59f9b13.png",
+    "caseUrl": "/cases/open/farm-ct-pistols",
+    "likes": 4261,
+    "tags": ""
+  },
+  {
+    "id": "farm-t-pistols",
+    "title": "Farm T Pistols",
+    "price": 1.36,
+    "eventPoint": 0.27,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/b1149d33eba50bd1324074942b2c3c7b8566aefe.png",
+    "caseUrl": "/cases/open/farm-t-pistols",
+    "likes": 3120,
+    "tags": ""
+  },
+  {
+    "id": "farm-desert-eagle",
+    "title": "Farm Desert Eagle",
+    "price": 1.35,
+    "eventPoint": 0.27,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/491b1dda893ed88d739ed2e9a7c52195cee3cb7d.png",
+    "caseUrl": "/cases/open/farm-desert-eagle",
+    "likes": 7234,
+    "tags": ""
+  },
+  {
+    "id": "farm-knives",
+    "title": "Farm Knife",
+    "price": 2.24,
+    "eventPoint": 0.45,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/962789bf730abdfad3bf0c4a4ccb2ba66f060506.png",
+    "caseUrl": "/cases/open/farm-knives",
+    "likes": 25242,
+    "tags": ""
+  },
+  {
+    "id": "farm-phase",
+    "title": "Farm Phase",
+    "price": 3.78,
+    "eventPoint": 0.75,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/23975dd670184c92ed7789416657e3bff111ba72.png",
+    "caseUrl": "/cases/open/farm-phase",
+    "likes": 6041,
+    "tags": "phases"
+  },
+  {
+    "id": "farm-gloves",
+    "title": "Farm Gloves",
+    "price": 3.74,
+    "eventPoint": 0.74,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/376cdcfc254f69298c414fbe09ff0a6c93a215c8.png",
+    "caseUrl": "/cases/open/farm-gloves",
+    "likes": 2674,
+    "tags": "hit"
+  },
+  {
+    "id": "milspec",
+    "title": "Mil-Spec",
+    "price": 0.35,
+    "eventPoint": 0.07,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/b671005b30ff96864b9e692590c110d3097f12cd.png",
+    "caseUrl": "/cases/open/milspec",
+    "likes": 12543,
+    "tags": ""
+  },
+  {
+    "id": "restricted",
+    "title": "Restricted",
+    "price": 0.98,
+    "eventPoint": 0.19,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/4e6991ad4fc8bc60241843a337657f2a95b89ffe.png",
+    "caseUrl": "/cases/open/restricted",
+    "likes": 7029,
+    "tags": ""
+  },
+  {
+    "id": "classified",
+    "title": "Classified",
+    "price": 2.92,
+    "eventPoint": 0.58,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/8cd2238204f05616333a71543df6327250fa6bdd.png",
+    "caseUrl": "/cases/open/classified",
+    "likes": 9080,
+    "tags": ""
+  },
+  {
+    "id": "covert",
+    "title": "Convert",
+    "price": 4.29,
+    "eventPoint": 0.85,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/fab4868f0123dc8e6b3189c041098f24cc70ea90.png",
+    "caseUrl": "/cases/open/covert",
+    "likes": 16422,
+    "tags": ""
+  },
+  {
+    "id": "knife",
+    "title": "Knife",
+    "price": 198.21,
+    "eventPoint": 39.64,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/829f69db2164ab64f70addf764e6468017cd7ec7.png",
+    "caseUrl": "/cases/open/knife",
+    "likes": 23111,
+    "tags": ""
+  },
+  {
+    "id": "aug",
+    "title": "AUG",
+    "price": 0.53,
+    "eventPoint": 0.1,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/2309dd5ffbb2598dca1afd01714babca4166ca4d.png",
+    "caseUrl": "/cases/open/aug",
+    "likes": 1792,
+    "tags": ""
+  },
+  {
+    "id": "sg553",
+    "title": "SG 553",
+    "price": 0.68,
+    "eventPoint": 0.13,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/68673dbe1373a05bf4b96d2f2d335dcbd37af36e.png",
+    "caseUrl": "/cases/open/sg553",
+    "likes": 1396,
+    "tags": ""
+  },
+  {
+    "id": "glock18",
+    "title": "Glock-18",
+    "price": 0.96,
+    "eventPoint": 0.19,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/96ede4a74164a7865da13911e13c359b05cea3ff.png",
+    "caseUrl": "/cases/open/glock18",
+    "likes": 3032,
+    "tags": "hit"
+  },
+  {
+    "id": "p90",
+    "title": "P90",
+    "price": 1.06,
+    "eventPoint": 0.21,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/4502a16d57bdf548ce40c4e26f639934e9114560.png",
+    "caseUrl": "/cases/open/p90",
+    "likes": 1517,
+    "tags": ""
+  },
+  {
+    "id": "usp-s",
+    "title": "USP-S",
+    "price": 0.94,
+    "eventPoint": 0.18,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/4fbc0fd4fe90b8586e6a6325c1a89c3ad046ce3e.png",
+    "caseUrl": "/cases/open/usp-s",
+    "likes": 6316,
+    "tags": ""
+  },
+  {
+    "id": "m4a4",
+    "title": "M4A4",
+    "price": 1.12,
+    "eventPoint": 0.22,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/a326a402787f984f51bbc4bb2c6f0ed51d716485.png",
+    "caseUrl": "/cases/open/m4a4",
+    "likes": 10234,
+    "tags": ""
+  },
+  {
+    "id": "desert-eagle",
+    "title": "Desert Eagle",
+    "price": 1.33,
+    "eventPoint": 0.26,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/f71330e574a6be39c6a6e62c122614e345508a27.png",
+    "caseUrl": "/cases/open/desert-eagle",
+    "likes": 5103,
+    "tags": ""
+  },
+  {
+    "id": "ak47",
+    "title": "AK-47",
+    "price": 1.65,
+    "eventPoint": 0.33,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/74aa0e3293da197ca1bec3bd5b265ce6e4d82f0f.png",
+    "caseUrl": "/cases/open/ak47",
+    "likes": 11116,
+    "tags": ""
+  },
+  {
+    "id": "m4a1-s",
+    "title": "M4A1-S",
+    "price": 2.32,
+    "eventPoint": 0.46,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/6d84445919c3117dad03b723fd98cf9c28e20a4c.png",
+    "caseUrl": "/cases/open/m4a1-s",
+    "likes": 5434,
+    "tags": ""
+  },
+  {
+    "id": "awp",
+    "title": "AWP",
+    "price": 2.34,
+    "eventPoint": 0.46,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/069c300f42e11a3708f0a89412b94df78311093e.png",
+    "caseUrl": "/cases/open/awp",
+    "likes": 5102,
+    "tags": ""
+  },
+  {
+    "id": "survival-knives",
+    "title": "Survival Knives",
+    "price": 60.67,
+    "eventPoint": 12.13,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/60d03b533b8d4d7c2f2f54c210c8fdc58d73a7b7.png",
+    "caseUrl": "/cases/open/survival-knives",
+    "likes": 2743,
+    "tags": ""
+  },
+  {
+    "id": "kukri-knives",
+    "title": "Kukri Knives",
+    "price": 87.16,
+    "eventPoint": 17.43,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/bdbaef5d5df2810aa84470ddc813478fcc2330cd.png",
+    "caseUrl": "/cases/open/kukri-knives",
+    "likes": 109,
+    "tags": "new"
+  },
+  {
+    "id": "skeleton-knives",
+    "title": "Skeleton Knives",
+    "price": 88.99,
+    "eventPoint": 17.79,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/64b59d75b4b84f693233238fc509e38119a09c9c.png",
+    "caseUrl": "/cases/open/skeleton-knives",
+    "likes": 2357,
+    "tags": ""
+  },
+  {
+    "id": "flip-knives",
+    "title": "Flip Knives",
+    "price": 129.16,
+    "eventPoint": 25.83,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/2ddb9a53b4ce319694ec65868c4a26b4fd28a47e.png",
+    "caseUrl": "/cases/open/flip-knives",
+    "likes": 1687,
+    "tags": ""
+  },
+  {
+    "id": "butterfly-knives",
+    "title": "Butterfly Knives",
+    "price": 151.67,
+    "eventPoint": 30.33,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/e3f1f86c67201cdbef8ab629df6b7789b6c9f349.png",
+    "caseUrl": "/cases/open/butterfly-knives",
+    "likes": 5577,
+    "tags": ""
+  },
+  {
+    "id": "m9-bayonet-knives",
+    "title": "M9 Bayonet Knives",
+    "price": 167.41,
+    "eventPoint": 33.48,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/d575165d5103ff1ff4a1d82ea90e3973a820c30f.png",
+    "caseUrl": "/cases/open/m9-bayonet-knives",
+    "likes": 2843,
+    "tags": ""
+  },
+  {
+    "id": "karambit-knives",
+    "title": "Karambit Knives",
+    "price": 535.14,
+    "eventPoint": 107.02,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/450f504030539ffacbbe0cbf782f23e7a0a8443b.png",
+    "caseUrl": "/cases/open/karambit-knives",
+    "likes": 3308,
+    "tags": ""
+  },
+  {
+    "id": "ascent",
+    "title": "Ascent",
+    "price": 1.66,
+    "eventPoint": 0.33,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/677a6b7942b4cf896ec4528645801b6de66d9ac9.png",
+    "caseUrl": "/cases/open/ascent",
+    "likes": 554,
+    "tags": ""
+  },
+  {
+    "id": "boreal",
+    "title": "Boreal",
+    "price": 1.97,
+    "eventPoint": 0.39,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/274fa5715a7d5bc4523bfa7c38416a3472ed9997.png",
+    "caseUrl": "/cases/open/boreal",
+    "likes": 402,
+    "tags": ""
+  },
+  {
+    "id": "radiant",
+    "title": "Radiant",
+    "price": 2.17,
+    "eventPoint": 0.43,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/d835e9a6cc1a19af77e3e3196d0db281af17f522.png",
+    "caseUrl": "/cases/open/radiant",
+    "likes": 435,
+    "tags": ""
+  },
+  {
+    "id": "trainline",
+    "title": "Trainline",
+    "price": 4.51,
+    "eventPoint": 0.9,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/b80e4548da3e7c92fa9e84843184b11cd3d93324.png",
+    "caseUrl": "/cases/open/trainline",
+    "likes": 49,
+    "tags": "Phases"
+  },
+  {
+    "id": "full-flash",
+    "title": "Full Flash",
+    "price": 0.30,
+    "eventPoint": 0.06,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/db43269e8b70aad925350fceddfd576d28888562.png",
+    "caseUrl": "/cases/open/full-flash",
+    "likes": 12756,
+    "tags": ""
+  },
+  {
+    "id": "pickle-world",
+    "title": "Pickle World",
+    "price": 0.35,
+    "eventPoint": 0.07,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/cebc9682d1e9075c51038f99ec828cf794b85210.png",
+    "caseUrl": "/cases/open/pickle-world",
+    "likes": 16655,
+    "tags": "hit"
+  },
+  {
+    "id": "arena",
+    "title": "Arena",
+    "price": 0.30,
+    "eventPoint": 0.06,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/58b4e9fd59f0aff05a56d35287317d8d1d53c405.png",
+    "caseUrl": "/cases/open/arena",
+    "likes": 6068,
+    "tags": "hit"
+  },
+  {
+    "id": "anti-rush",
+    "title": "Anti-Rush",
+    "price": 0.40,
+    "eventPoint": 0.08,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/94c7fe133c89c75ed9abcee660c3e255010427c8.png",
+    "caseUrl": "/cases/open/anti-rush",
+    "likes": 7858,
+    "tags": ""
+  },
+  {
+    "id": "dream",
+    "title": "Dream",
+    "price": 1.69,
+    "eventPoint": 0.33,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/5cec87aa17d03ba7f46a1565f4551061b139eea6.png",
+    "caseUrl": "/cases/open/dream",
+    "likes": 3124,
+    "tags": ""
+  },
+  {
+    "id": "half-life",
+    "title": "Half Life",
+    "price": 3.00,
+    "eventPoint": 0.6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/270a3327cde5d19b74d7bf08d2eedd9e631f32b9.png",
+    "caseUrl": "/cases/open/half-life",
+    "likes": 1428,
+    "tags": ""
+  },
+  {
+    "id": "rainbow",
+    "title": "Rainbow",
+    "price": 3.50,
+    "eventPoint": 0.7,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/0e19c31301ea1984c18cbb8dfd69a07218c63ace.png",
+    "caseUrl": "/cases/open/rainbow",
+    "likes": 10227,
+    "tags": ""
+  },
+  {
+    "id": "sunny-set",
+    "title": "Sunny Set",
+    "price": 4.00,
+    "eventPoint": 0.8,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/e10b51e25659f6bf143a8acf84308e3e852690d4.png",
+    "caseUrl": "/cases/open/sunny-set",
+    "likes": 3083,
+    "tags": ""
+  },
+  {
+    "id": "4-pro",
+    "title": "4 PRO",
+    "price": 4.00,
+    "eventPoint": 0.8,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/0822739b9997d963e402ca9ca4b9f658de78701e.png",
+    "caseUrl": "/cases/open/4-pro",
+    "likes": 3328,
+    "tags": ""
+  },
+  {
+    "id": "sc-fun",
+    "title": "SC Fun",
+    "price": 4.00,
+    "eventPoint": 0.8,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/115b245ad23c88fd696ce44c760d9f641d6d9f16.png",
+    "caseUrl": "/cases/open/sc-fun",
+    "likes": 7982,
+    "tags": ""
+  },
+  {
+    "id": "nightmare",
+    "title": "Nightmare",
+    "price": 4.20,
+    "eventPoint": 0.84,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/f7f736dd9008ddb287ef51c936c4960082b724cd.png",
+    "caseUrl": "/cases/open/nightmare",
+    "likes": 6244,
+    "tags": ""
+  },
+  {
+    "id": "team-vitality",
+    "title": "Team Vitality",
+    "price": 4.50,
+    "eventPoint": 0.9,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/d53f7cc5e8c79000f8ec5994ffd3edfab3cb0084.png",
+    "caseUrl": "/cases/open/team-vitality",
+    "likes": 2402,
+    "tags": "hit"
+  },
+  {
+    "id": "bloody",
+    "title": "Bloody",
+    "price": 4.90,
+    "eventPoint": 0.98,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/bdc7516a9dfc80ff39faa681decc775f9b3d4081.png",
+    "caseUrl": "/cases/open/bloody",
+    "likes": 10543,
+    "tags": ""
+  },
+  {
+    "id": "its-a-palworld",
+    "title": "It's a Palworld",
+    "price": 5.00,
+    "eventPoint": 1,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/fdc5addf45a3d187d940b64965357647c47855e2.png",
+    "caseUrl": "/cases/open/its-a-palworld",
+    "likes": 2549,
+    "tags": ""
+  },
+  {
+    "id": "sands-of-anubis",
+    "title": "Sands of Anubis",
+    "price": 5.00,
+    "eventPoint": 1,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/dfbf17f5aebfde5abb508ef5ef0737fb84b80945.png",
+    "caseUrl": "/cases/open/sands-of-anubis",
+    "likes": 1081,
+    "tags": ""
+  },
+  {
+    "id": "ak-blues",
+    "title": "AK-Blues",
+    "price": 5.00,
+    "eventPoint": 1,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/20ed5bf04afda3038244c4cfc222717a904b1cb9.png",
+    "caseUrl": "/cases/open/ak-blues",
+    "likes": 2354,
+    "tags": ""
+  },
+  {
+    "id": "hot",
+    "title": "Hot",
+    "price": 5.37,
+    "eventPoint": 1.07,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/99ca5b580e52d6ff8cec23afdd2f5ccb766ec718.png",
+    "caseUrl": "/cases/open/hot",
+    "likes": 2756,
+    "tags": ""
+  },
+  {
+    "id": "exotic",
+    "title": "Exotic",
+    "price": 7.00,
+    "eventPoint": 1.4,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/72e334d3fea8db01d3fe328bd70835afb6608dde.png",
+    "caseUrl": "/cases/open/exotic",
+    "likes": 7884,
+    "tags": ""
+  },
+  {
+    "id": "bloody-asiimov",
+    "title": "Bloody Asiimov",
+    "price": 7.50,
+    "eventPoint": 1.5,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/35dc2330e558b456f1e43975c0dbe03ad4cdac13.png",
+    "caseUrl": "/cases/open/bloody-asiimov",
+    "likes": 2921,
+    "tags": ""
+  },
+  {
+    "id": "fire-and-water",
+    "title": "Fire and Water",
+    "price": 8.00,
+    "eventPoint": 1.6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/c236b61187040d8266b58f4caa2df9fc76cccf22.png",
+    "caseUrl": "/cases/open/fire-and-water",
+    "likes": 2522,
+    "tags": ""
+  },
+  {
+    "id": "agents",
+    "title": "Agents",
+    "price": 10.00,
+    "eventPoint": 2,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/92c132db4d1f7c4baf8529c42c20cadacf06f85f.png",
+    "caseUrl": "/cases/open/agents",
+    "likes": 9074,
+    "tags": ""
+  },
+  {
+    "id": "ace-clutch",
+    "title": "Ace Clutch",
+    "price": 10.00,
+    "eventPoint": 2,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/ea80476cad0e9c944b6c211ca22e94731c7a5676.png",
+    "caseUrl": "/cases/open/ace-clutch",
+    "likes": 1617,
+    "tags": ""
+  },
+  {
+    "id": "source2-exe",
+    "title": "Source2.exe",
+    "price": 10.00,
+    "eventPoint": 2,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/42b615571202712998ffd3637d4662f326ff3cac.png",
+    "caseUrl": "/cases/open/source2-exe",
+    "likes": 3414,
+    "tags": ""
+  },
+  {
+    "id": "honey",
+    "title": "Honey",
+    "price": 10.21,
+    "eventPoint": 2.04,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/59a539635675eb42e24a2ea7430a422d989882d1.png",
+    "caseUrl": "/cases/open/honey",
+    "likes": 2799,
+    "tags": ""
+  },
+  {
+    "id": "stattrak",
+    "title": "StatTrak™",
+    "price": 11.00,
+    "eventPoint": 2.2,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/4deddf3e0927cc336b0fbfcb6c929c6b1549f16b.png",
+    "caseUrl": "/cases/open/stattrak",
+    "likes": 6736,
+    "tags": ""
+  },
+  {
+    "id": "asiimov",
+    "title": "Asiimov",
+    "price": 12.00,
+    "eventPoint": 2.4,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/9974c95b5989400142195aaf654feb2bf6637780.png",
+    "caseUrl": "/cases/open/asiimov",
+    "likes": 3327,
+    "tags": ""
+  },
+  {
+    "id": "sc-pro",
+    "title": "SC Pro",
+    "price": 12.34,
+    "eventPoint": 2.46,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/5c55f73d1ec1f79f9b9bbc0e8e7f8232c5642f56.png",
+    "caseUrl": "/cases/open/sc-pro",
+    "likes": 4854,
+    "tags": ""
+  },
+  {
+    "id": "the-mongolz",
+    "title": "The MongolZ",
+    "price": 13.56,
+    "eventPoint": 2.71,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/387af127aef8a6e1cdc47f63ada2caa2d6f509ac.png",
+    "caseUrl": "/cases/open/the-mongolz",
+    "likes": 1124,
+    "tags": ""
+  },
+  {
+    "id": "monster",
+    "title": "Monster",
+    "price": 15.00,
+    "eventPoint": 3,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/998f4f97f5befac6fb5d43e5d9cccfb0040fb87c.png",
+    "caseUrl": "/cases/open/monster",
+    "likes": 2655,
+    "tags": ""
+  },
+  {
+    "id": "purple-rain",
+    "title": "Purple Rain",
+    "price": 15.00,
+    "eventPoint": 3,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/4aaf9d23403a945e2452f5f47e6b5bf152cca598.png",
+    "caseUrl": "/cases/open/purple-rain",
+    "likes": 8522,
+    "tags": "hit"
+  },
+  {
+    "id": "ultraviolet-case",
+    "title": "Ultraviolet Case",
+    "price": 19.99,
+    "eventPoint": 3.99,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/dd40e289830b8740e45aa4873f399cade4a6daa3.png",
+    "caseUrl": "/cases/open/ultraviolet-case",
+    "likes": 5467,
+    "tags": ""
+  },
+  {
+    "id": "silver-bull",
+    "title": "Silver Bull",
+    "price": 21.00,
+    "eventPoint": 4.2,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/7304be9d0cb816fd5904b73f4154ba8938fca78f.png",
+    "caseUrl": "/cases/open/silver-bull",
+    "likes": 7321,
+    "tags": ""
+  },
+  {
+    "id": "25-anniversary",
+    "title": "25th Anniversary",
+    "price": 25.00,
+    "eventPoint": 5,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/bead2fe2a488f3d9445ff2118c93b13bbb16d9fe.png",
+    "caseUrl": "/cases/open/25-anniversary",
+    "likes": 3533,
+    "tags": ""
+  },
+  {
+    "id": "factory-new",
+    "title": "Factory New",
+    "price": 25.00,
+    "eventPoint": 5,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/6848232ace9e9b025a6dc88f4ace3a907e2b95fa.png",
+    "caseUrl": "/cases/open/factory-new",
+    "likes": 2567,
+    "tags": ""
+  },
+  {
+    "id": "convert-knife",
+    "title": "Convert Knife",
+    "price": 28.67,
+    "eventPoint": 5.73,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/a7edbc5f4f682bb90e43e1593077fc6f6bb8c27f.png",
+    "caseUrl": "/cases/open/convert-knife",
+    "likes": 4488,
+    "tags": ""
+  },
+  {
+    "id": "pro-investor",
+    "title": "Pro Investor",
+    "price": 30.00,
+    "eventPoint": 6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/d4dc79d8a9ec688246494008ddda779dfc813b87.png",
+    "caseUrl": "/cases/open/pro-investor",
+    "likes": 5534,
+    "tags": ""
+  },
+  {
+    "id": "hanami",
+    "title": "Hanami",
+    "price": 30.00,
+    "eventPoint": 6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/67017dec11dd040950cc21a1d30e3569303b3101.png",
+    "caseUrl": "/cases/open/hanami",
+    "likes": 3113,
+    "tags": ""
+  },
+  {
+    "id": "piece-of-luck",
+    "title": "Piece of Luck",
+    "price": 40.00,
+    "eventPoint": 8,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/13f88e4a6510f65c335638d57a7eff60db43fbea.png",
+    "caseUrl": "/cases/open/piece-of-luck",
+    "likes": 7911,
+    "tags": ""
+  },
+  {
+    "id": "sc-god",
+    "title": "SC God",
+    "price": 49.00,
+    "eventPoint": 9.8,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/5e7058df7116bb59756b0191f0718b2f221952a9.png",
+    "caseUrl": "/cases/open/sc-god",
+    "likes": 5308,
+    "tags": "hit"
+  },
+  {
+    "id": "winner-set",
+    "title": "Winner Set",
+    "price": 50.00,
+    "eventPoint": 10,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/fad059bee4661303c236708b30168408ec7813ae.png",
+    "caseUrl": "/cases/open/winner-set",
+    "likes": 2846,
+    "tags": ""
+  },
+  {
+    "id": "glover",
+    "title": "Glover",
+    "price": 60.13,
+    "eventPoint": 12.02,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/57b9d2e815f67e4526bb8aa287448ae1ad02442e.png",
+    "caseUrl": "/cases/open/glover",
+    "likes": 2734,
+    "tags": ""
+  },
+  {
+    "id": "exclusive",
+    "title": "Exclusive",
+    "price": 60.00,
+    "eventPoint": 12,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/68d0683f75c89258b2c366dabc6928190e3fce85.png",
+    "caseUrl": "/cases/open/exclusive",
+    "likes": 4125,
+    "tags": ""
+  },
+  {
+    "id": "star-pearl",
+    "title": "Star Pearl",
+    "price": 65.00,
+    "eventPoint": 13,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/31cb6a9df94666ddf416530260d860aff2c957d5.png",
+    "caseUrl": "/cases/open/star-pearl",
+    "likes": 2032,
+    "tags": "hit"
+  },
+  {
+    "id": "this-is-a-major",
+    "title": "This is a Major!",
+    "price": 64.97,
+    "eventPoint": 12.99,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/30ad98e9757c403a08c170f62a6b214ada16ae3e.png",
+    "caseUrl": "/cases/open/this-is-a-major",
+    "likes": 2765,
+    "tags": ""
+  },
+  {
+    "id": "maelstrom",
+    "title": "Maelstrom",
+    "price": 99.99,
+    "eventPoint": 19.99,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/ab8ddd8560f829a6fc50023795683ac25164a95c.png",
+    "caseUrl": "/cases/open/maelstrom",
+    "likes": 3072,
+    "tags": ""
+  },
+  {
+    "id": "lady-luck",
+    "title": "Lady Luck",
+    "price": 150.00,
+    "eventPoint": 30,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/61eeec4adce2727948e2ff9b1978274b9d37cac1.png",
+    "caseUrl": "/cases/open/lady-luck",
+    "likes": 3121,
+    "tags": ""
+  },
+  {
+    "id": "overtimes",
+    "title": "Overtimes?",
+    "price": 150.00,
+    "eventPoint": 30,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/14c8c876036c35d99afa794df92787e77b9036a5.png",
+    "caseUrl": "/cases/open/overtimes",
+    "likes": 3023,
+    "tags": ""
+  },
+  {
+    "id": "diamond-skins",
+    "title": "Diamond Skins",
+    "price": 155.00,
+    "eventPoint": 31,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/55ff59b182327b3b3a45e5533a66065ad789c240.png",
+    "caseUrl": "/cases/open/diamond-skins",
+    "likes": 3091,
+    "tags": ""
+  },
+  {
+    "id": "gloves",
+    "title": "Gloves",
+    "price": 170.00,
+    "eventPoint": 34,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/a6f8d4fb06045e7e8a26d9ee59c249ea20a2b4c9.png",
+    "caseUrl": "/cases/open/gloves",
+    "likes": 3812,
+    "tags": ""
+  },
+  {
+    "id": "the-legendary-howls",
+    "title": "The Legendary Howls",
+    "price": 240.26,
+    "eventPoint": 48.05,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/3cba79e6f84ca2dfafddd0f331c8b32503c81204.png",
+    "caseUrl": "/cases/open/the-legendary-howls",
+    "likes": 2971,
+    "tags": "hit"
+  },
+  {
+    "id": "fantastic",
+    "title": "Fantastic",
+    "price": 777.00,
+    "eventPoint": 155.4,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/426047f48283e5c9df74d04869a6412e20a701b6.png",
+    "caseUrl": "/cases/open/fantastic",
+    "likes": 4110,
+    "tags": ""
+  },
+  {
+    "id": "maze-trip",
+    "title": "Maze Trip",
+    "price": 1000.00,
+    "eventPoint": 200,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/4ce8054b2fdbbd724f036cd042090181dae184f9.png",
+    "caseUrl": "/cases/open/maze-trip",
+    "likes": 7312,
+    "tags": ""
+  },
+  {
+    "id": "znorux",
+    "title": "Znorux",
+    "price": 2.04,
+    "eventPoint": 0.4,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/2d63858a86bd079f2083353f2c27f1eb07163043.png",
+    "caseUrl": "/cases/open/znorux",
+    "likes": 1398,
+    "tags": ""
+  },
+  {
+    "id": "toby-on-the-tele",
+    "title": "Toby on the Tele",
+    "price": 3.43,
+    "eventPoint": 0.68,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/d9a12c0ff28e55a1d00f61007ccf132bcfb6239b.png",
+    "caseUrl": "/cases/open/toby-on-the-tele",
+    "likes": 507,
+    "tags": ""
+  },
+  {
+    "id": "superstitum",
+    "title": "SuperstituM",
+    "price": 4.73,
+    "eventPoint": 0.94,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/bf043dd76e1be57c571fdfc041876af5dc43650f.png",
+    "caseUrl": "/cases/open/superstitum",
+    "likes": 11.54,
+    "tags": ""
+  },
+  {
+    "id": "cej0t",
+    "title": "cej0t",
+    "price": 4.51,
+    "eventPoint": 0.9,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/925c3c4e189a1fd9e361e2ef423e446eae583820.png",
+    "caseUrl": "/cases/open/cej0t",
+    "likes": 139,
+    "tags": ""
+  },
+  {
+    "id": "d4x",
+    "title": "D4X",
+    "price": 6.29,
+    "eventPoint": 1.25,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/0b16c0b530923b7f8ae830e207af03bf0862c766.png",
+    "caseUrl": "/cases/open/d4x",
+    "likes": 1154,
+    "tags": ""
+  },
+  {
+    "id": "ag1l",
+    "title": "Ag1l",
+    "price": 7.49,
+    "eventPoint": 1.49,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/2d8473ae7d340524de9a99404b1325dd4fa22bd3.png",
+    "caseUrl": "/cases/open/ag1l",
+    "likes": 93,
+    "tags": ""
+  },
+  {
+    "id": "joispoi24",
+    "title": "JOISPOI24",
+    "price": 10.55,
+    "eventPoint": 2.11,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/5c4779d36fab06007a129f7f709d8efe275bed5e.png",
+    "caseUrl": "/cases/open/joispoi24",
+    "likes": 1843,
+    "tags": ""
+  },
+  {
+    "id": "kaeryka",
+    "title": "kaeryka",
+    "price": 12.47,
+    "eventPoint": 2.49,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/539eb18c8ee31bf7eff16182a8d60b3b66bb0f3a.png",
+    "caseUrl": "/cases/open/kaeryka",
+    "likes": 5534,
+    "tags": ""
+  },
+  {
+    "id": "franzj",
+    "title": "FranzJ",
+    "price": 8.61,
+    "eventPoint": 1.72,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/f802917df65f07b1782deb89bc0b5828d7def922.png",
+    "caseUrl": "/cases/open/franzj",
+    "likes": 2461,
+    "tags": ""
+  },
+  {
+    "id": "mutiris",
+    "title": "MUTiRiS",
+    "price": 10.21,
+    "eventPoint": 2.04,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/b3c57f215649b47a13ab2ebd53867882b61ed28c.png",
+    "caseUrl": "/cases/open/mutiris",
+    "likes": 2.04,
+    "tags": ""
+  },
+  {
+    "id": "hai-x",
+    "title": "HaiX",
+    "price": 12.75,
+    "eventPoint": 2.55,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/03e6cbbdb6bc78e2315f7b39797b5f204a1d1801.png",
+    "caseUrl": "/cases/open/hai-x",
+    "likes": 930,
+    "tags": ""
+  },
+  {
+    "id": "azuwu",
+    "title": "azuwu",
+    "price": 22.27,
+    "eventPoint": 4.45,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/aa97bdcfdd3c0486895668bfb6159bd0103b5c0c.png",
+    "caseUrl": "/cases/open/azuwu",
+    "likes": 279,
+    "tags": ""
+  },
+  {
+    "id": "angvil",
+    "title": "Angvil",
+    "price": 29.31,
+    "eventPoint": 5.86,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/ae42ae1a407a9e9e29434895d1abba924734d730.png",
+    "caseUrl": "/cases/open/angvil",
+    "likes": 1845,
+    "tags": ""
+  },
+  {
+    "id": "molto-niico",
+    "title": "Molto&Niico",
+    "price": 43.78,
+    "eventPoint": 8.75,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/18fdfab84a6833b210b72217c1d8204043f49821.png",
+    "caseUrl": "/cases/open/molto-niico",
+    "likes": 1033,
+    "tags": ""
+  },
+  {
+    "id": "story",
+    "title": "story",
+    "price": 48.60,
+    "eventPoint": 9.72,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/a73fd69d376e0ec00627304b2c5f3508827c38b1.png",
+    "caseUrl": "/cases/open/story",
+    "likes": 260,
+    "tags": ""
+  },
+  {
+    "id": "karrigans-choice",
+    "title": "Karrigan's Choice",
+    "price": 57.24,
+    "eventPoint": 11.44,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/420bf8d328d98346672999294e981b99a7abc377.png",
+    "caseUrl": "/cases/open/karrigans-choice",
+    "likes": 1079,
+    "tags": ""
+  },
+  {
+    "id": "peacemaker",
+    "title": "peacemaker",
+    "price": 70.83,
+    "eventPoint": 14.16,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/fabb6a8ca5b5bb5eff4fbb48e64ca931c1fb727b.png",
+    "caseUrl": "/cases/open/peacemaker",
+    "likes": 742,
+    "tags": ""
+  },
+  {
+    "id": "sparkles",
+    "title": "Sparkles",
+    "price": 71.96,
+    "eventPoint": 14.39,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/588ae3324a65ccbfd6ba836b6b9a97cb93c124f0.png",
+    "caseUrl": "/cases/open/sparkles",
+    "likes": 1923,
+    "tags": ""
+  },
+  {
+    "id": "ricky",
+    "title": "ricky",
+    "price": 175.27,
+    "eventPoint": 35.05,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/a5f26ef3ac010021c6f700ac220b41cf27cc0584.png",
+    "caseUrl": "/cases/open/ricky",
+    "likes": 168,
+    "tags": ""
+  },
+  {
+    "id": "mateoz",
+    "title": "mateoz",
+    "price": 259.84,
+    "eventPoint": 51.96,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/a23eaabf1a72dcc938bb433c3ad4d9c5367de1c1.png",
+    "caseUrl": "/cases/open/mateoz",
+    "likes": 565,
+    "tags": "phases"
+  },
+  {
+    "id": "cs-1-6-memories",
+    "title": "CS 1.6 Memories",
+    "price": 2.04,
+    "eventPoint": 0.4,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/46ea510b5d272e2498480082c35c146b93537d6d.png",
+    "caseUrl": "/cases/open/cs-1-6-memories",
+    "likes": 5424,
+    "tags": "hit"
+  },
+  {
+    "id": "cobblestone-1v4",
+    "title": "Cobblestone 1v4",
+    "price": 4.16,
+    "eventPoint": 0.83,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/0bb517e96df5c71a572f93454ddcf70d774519fe.png",
+    "caseUrl": "/cases/open/cobblestone-1v4",
+    "likes": 1797,
+    "tags": ""
+  },
+  {
+    "id": "hltv-confirmed",
+    "title": "HLTV Confirmed",
+    "price": 10.98,
+    "eventPoint": 2.19,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/8e409690783ba2796f3cb4f45212e0aa7879e7e5.png",
+    "caseUrl": "/cases/open/hltv-confirmed",
+    "likes": 3954,
+    "tags": ""
+  },
+  {
+    "id": "major-legend",
+    "title": "Major Legend",
+    "price": 9.49,
+    "eventPoint": 1.89,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/83961a286e6d7f7ed0bd0f2722e6de9beab531a0.png",
+    "caseUrl": "/cases/open/major-legend",
+    "likes": 5876,
+    "tags": ""
+  },
+  {
+    "id": "eco-rush-b",
+    "title": "ECO Rush B",
+    "price": 13.30,
+    "eventPoint": 2.66,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/5eb8f9105fd9accd79929399ad5c5f4929c02c4c.png",
+    "caseUrl": "/cases/open/eco-rush-b",
+    "likes": 2070,
+    "tags": ""
+  },
+  {
+    "id": "shadow",
+    "title": "Shadow",
+    "price": 1.50,
+    "eventPoint": 0.3,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/b6f9f123522fa6999b487ab438e1987c6ae28bb9.png",
+    "caseUrl": "/cases/open/shadow",
+    "likes": 1323,
+    "tags": ""
+  },
+  {
+    "id": "operation-breakout-weapon",
+    "title": "Operation Breakout Weapon",
+    "price": 1.50,
+    "eventPoint": 0.3,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/d29beb643a64549acc0498a1d8b6afb12b7ed94c.png",
+    "caseUrl": "/cases/open/operation-breakout-weapon",
+    "likes": 1203,
+    "tags": ""
+  },
+  {
+    "id": "glove",
+    "title": "Glove",
+    "price": 1.50,
+    "eventPoint": 0.3,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/ce44fd74880a757dcc3588923328d6a2611ca817.png",
+    "caseUrl": "/cases/open/glove",
+    "likes": 1933,
+    "tags": ""
+  },
+  {
+    "id": "fracture",
+    "title": "Fracture",
+    "price": 1.60,
+    "eventPoint": 0.32,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/253347d65acf53ddab7f7a89ff14c012a0df6cc1.png",
+    "caseUrl": "/cases/open/fracture",
+    "likes": 1129,
+    "tags": ""
+  },
+  {
+    "id": "prisma",
+    "title": "Prisma",
+    "price": 2.00,
+    "eventPoint":  0.4,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/fc5a0a9c0f589528ab3a7e18876394f54a8b2835.png",
+    "caseUrl": "/cases/open/prisma",
+    "likes": 690,
+    "tags": ""
+  },
+  {
+    "id": "chroma",
+    "title": "Chroma",
+    "price": 2.00,
+    "eventPoint": 0.4,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/f08233b661185e276766d5037e51e590b26a6730.png",
+    "caseUrl": "/cases/open/chroma",
+    "likes": 1323,
+    "tags": ""
+  },
+  {
+    "id": "chroma-3",
+    "title": "Chroma 3",
+    "price": 2.00,
+    "eventPoint": 0.4,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/fd90e700944444d11c7b7a36bedf058939033f13.png",
+    "caseUrl": "/cases/open/chroma-3",
+    "likes": 1115,
+    "tags": ""
+  },
+  {
+    "id": "dreams-and-nightmares",
+    "title": "Dreams and Nightmares",
+    "price": 2.50,
+    "eventPoint": 0.5,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/86083cd5eacfbd06deae0c47a2a562e4b74e3220.png",
+    "caseUrl": "/cases/open/dreams-and-nightmares",
+    "likes": 1402,
+    "tags": ""
+  },
+  {
+    "id": "recoil",
+    "title": "Recoil",
+    "price": 2.50,
+    "eventPoint": 0.5,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/019858858b386d4e8039950b7161701453c7aac5.webp",
+    "caseUrl": "/cases/open/recoil",
+    "likes": 1021,
+    "tags": ""
+  },
+  {
+    "id": "danger-zone",
+    "title": "Danger Zone",
+    "price": 2.50,
+    "eventPoint": 0.5,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/1b00fc586b59536f3d57c67eec3b68edbf15ba72.png",
+    "caseUrl": "/cases/open/danger-zone",
+    "likes": 40,
+    "tags": ""
+  },
+  {
+    "id": "gamma",
+    "title": "Gamma",
+    "price": 2.50,
+    "eventPoint": 0.5,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/a4f51cd385a3f54a60cea36dfa71d62c53bc570f.png",
+    "caseUrl": "/cases/open/gamma",
+    "likes": 851,
+    "tags": ""
+  },
+  {
+    "id": "fever",
+    "title": "Fever",
+    "price": 2.03,
+    "eventPoint": 0.4,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/0c2a5ba4941dbe747d193e36d99587e6fa083241.webp",
+    "caseUrl": "/cases/open/fever",
+    "likes": 647,
+    "tags": ""
+  },
+  {
+    "id": "spectrum-2",
+    "title": "Spectrum 2",
+    "price": 3.00,
+    "eventPoint": 0.6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/cc4f134990eee3a0985d2aa9fff171a7f5016438.png",
+    "caseUrl": "/cases/open/spectrum-2",
+    "likes": 43,
+    "tags": ""
+  },
+  {
+    "id": "revolution",
+    "title": "Revolution",
+    "price": 3.00,
+    "eventPoint": 0.6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/92bbd1739f68ab6df0107d4d7849d88b670fcd4a.png",
+    "caseUrl": "/cases/open/revolution",
+    "likes": 743,
+    "tags": ""
+  },
+  {
+    "id": "operation-phoenix-weapon",
+    "title": "Operation Phoenix Weapon",
+    "price": 3.00,
+    "eventPoint": 0.6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/7fe585b2afa00ff3b0b5d78a9a79de69669c31de.png",
+    "caseUrl": "/cases/open/operation-phoenix-weapon",
+    "likes": 730,
+    "tags": ""
+  },
+  {
+    "id": "snakebite",
+    "title": "Snakebite",
+    "price": 3.00,
+    "eventPoint": 0.6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/91010616909e4033836b19517aace899d7a2ac7d.png",
+    "caseUrl": "/cases/open/snakebite",
+    "likes": 2393,
+    "tags": ""
+  },
+  {
+    "id": "gamma-2",
+    "title": "Gamma 2",
+    "price": 3.00,
+    "eventPoint": 0.6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/bafb7235216ea0219ff79d958af73116656b5e96.png",
+    "caseUrl": "/cases/open/gamma-2",
+    "likes": 690,
+    "tags": ""
+  },
+  {
+    "id": "cs20-case",
+    "title": "CS20 Case",
+    "price": 3.00,
+    "eventPoint": 0.6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/3e571a36251bdf66e49e70913da443cc47468bb0.png",
+    "caseUrl": "/cases/open/cs20-case",
+    "likes": 465,
+    "tags": ""
+  },
+  {
+    "id": "esports-2013-winter",
+    "title": "eSports 2013 Winter",
+    "price": 3.25,
+    "eventPoint": 0.65,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/f29bc0b4536fbf9b7d77556222970f0bf6a7e6bc.png",
+    "caseUrl": "/cases/open/esports-2013-winter",
+    "likes": 1281,
+    "tags": ""
+  },
+  {
+    "id": "horizon",
+    "title": "Horizon",
+    "price": 3.30,
+    "eventPoint": 0.66,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/08a20f6609da8c27d5c224867fec1c051eccbe60.png",
+    "caseUrl": "/cases/open/horizon",
+    "likes": 904,
+    "tags": ""
+  },
+  {
+    "id": "shattered-web",
+    "title": "Shattered Web",
+    "price": 3.50,
+    "eventPoint": 0.7,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/b54aa8cd1acaf4b2822a1bb93c971c98d41c256b.png",
+    "caseUrl": "/cases/open/shattered-web",
+    "likes": 30,
+    "tags": ""
+  },
+  {
+    "id": "broken-fang",
+    "title": "Broken Fang",
+    "price": 3.50,
+    "eventPoint": 0.7,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/c5ce747b014e34ddde8bf5e2c0159fc2098ac9c1.png",
+    "caseUrl": "/cases/open/broken-fang",
+    "likes": 532,
+    "tags": ""
+  },
+  {
+    "id": "huntsman-weapon",
+    "title": "Huntsman Weapon",
+    "price": 3.50,
+    "eventPoint": 0.7,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/0fb1a2a9b260091c9ea040c55125a59fa53a4ff2.png",
+    "caseUrl": "/cases/open/huntsman-weapon",
+    "likes": 881,
+    "tags": ""
+  },
+  {
+    "id": "spectrum",
+    "title": "Spectrum",
+    "price": 3.55,
+    "eventPoint": 0.71,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/6eaa86f290ff74b95c2a2e867b86453950f65bd8.png",
+    "caseUrl": "/cases/open/spectrum",
+    "likes": 584,
+    "tags": ""
+  },
+  {
+    "id": "clutch",
+    "title": "Clutch",
+    "price": 4.00,
+    "eventPoint": 0.8,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/47708d9a1027b7c752ded1658711c7e3225212f4.png",
+    "caseUrl": "/cases/open/clutch",
+    "likes": 133,
+    "tags": ""
+  },
+  {
+    "id": "chroma-2",
+    "title": "Chroma 2",
+    "price": 4.00,
+    "eventPoint": 0.8,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/6aacb1a585681fab1db04f48a3dbabf2d6a51ec3.png",
+    "caseUrl": "/cases/open/chroma-2",
+    "likes": 119,
+    "tags": "phases"
+  },
+  {
+    "id": "prisma-2",
+    "title": "Prisma 2",
+    "price": 5.00,
+    "eventPoint": 1.0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/2ef56dbbab7e5b89a7fbe5bd8f59a9a7e8da352b.png",
+    "caseUrl": "/cases/open/prisma-2",
+    "likes": 550,
+    "tags": ""
+  },
+  {
+    "id": "esports-2013",
+    "title": "eSports 2013",
+    "price": 8.00,
+    "eventPoint": 1.6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/d86bcec247b19d4c58647ca143033cbe2b57bd3a.png",
+    "caseUrl": "/cases/open/esports-2013",
+    "likes": 1185,
+    "tags": ""
+  },
+  {
+    "id": "Hydra",
+    "title": "Hydra",
+    "price": 9.00,
+    "eventPoint": 1.8,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/da2b32da517f58417735f726908052505c9ccda8.png",
+    "caseUrl": "/cases/open/hydra",
+    "likes": 653,
+    "tags": ""
+  },
+  {
+    "id": "operation-bravo",
+    "title": "Operation Bravo",
+    "price": 10.00,
+    "eventPoint": 2.0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/31556a8dff7bc19d35fd2e5fde7c75e2978b4a58.png",
+    "caseUrl": "/cases/open/operation-bravo",
+    "likes": 1662,
+    "tags": ""
+  },
+  {
+    "id": "weapon",
+    "title": "Weapon",
+    "price": 40.00,
+    "eventPoint": 8.0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/6b570dcd0317b32ea065cb13eb450e3750bcbbd2.png",
+    "caseUrl": "/cases/open/weapon",
+    "likes": 3422,
+    "tags": ""
+  },
+  {
+    "id": "2021-mirage",
+    "title": "2021 Mirage",
+    "price": 1.99,
+    "eventPoint": 0.39,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/b292ac233728d0bb39edbe641bcf0b38339b6e06.png",
+    "caseUrl": "/cases/open/2021-mirage",
+    "likes": 417,
+    "tags": ""
+  },
+  {
+    "id": "2021-vertigo",
+    "title": "2021 Vertigo",
+    "price": 2.00,
+    "eventPoint": 0.4,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/21210e91dd3027bac14781fd18f483b825093f92.png",
+    "caseUrl": "/cases/open/2021-vertigo",
+    "likes": 330,
+    "tags": ""
+  },
+  {
+    "id": "inferno",
+    "title": "Inferno",
+    "price": 1.97,
+    "eventPoint": 0.39,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/ed176cebbb4c9204d361d809da65ff9c8b2e2c95.png",
+    "caseUrl": "/cases/open/inferno",
+    "likes": 935,
+    "tags": ""
+  },
+  {
+    "id": "2021-dust-2",
+    "title": "2021 Dust 2",
+    "price": 2.49,
+    "eventPoint": 0.49,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/1825b628be8336a839921e3e0170f5aee8fd98c7.png",
+    "caseUrl": "/cases/open/2021-dust-2",
+    "likes": 313,
+    "tags": ""
+  },
+  {
+    "id": "anubis",
+    "title": "Anubis",
+    "price": 3.00,
+    "eventPoint": 0.6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/fb7413f3d2b4ce2afbccd0c240898913741f6807.png",
+    "caseUrl": "/cases/open/anubis",
+    "likes": 214,
+    "tags": ""
+  },
+  {
+    "id": "havoc",
+    "title": "Havoc",
+    "price": 3.00,
+    "eventPoint": 0.6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/8ec63d4b45389804b13ad1093dd410a87fb9c0bf.png",
+    "caseUrl": "/cases/open/havoc",
+    "likes": 286,
+    "tags": ""
+  },
+  {
+    "id": "chop-shop",
+    "title": "Chop Shop",
+    "price": 3.99,
+    "eventPoint": 0.79,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/145c097f3268a84f78cb885aa2858fccca6ba230.png",
+    "caseUrl": "/cases/open/chop-shop",
+    "likes": 563,
+    "tags": ""
+  },
+  {
+    "id": "canals",
+    "title": "Canals",
+    "price": 4.00,
+    "eventPoint": 0.8,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/4339edc0ad8b563ea866b31410f49c9c32746307.png",
+    "caseUrl": "/cases/open/canals",
+    "likes": 655,
+    "tags": ""
+  },
+  {
+    "id": "cobblestone",
+    "title": "Cobblestone",
+    "price": 5.00,
+    "eventPoint": 1.0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/7ef5981618301ea05613af63650fc0b0891b412f.png",
+    "caseUrl": "/cases/open/cobblestone",
+    "likes": 651,
+    "tags": ""
+  },
+  {
+    "id": "nuke",
+    "title": "Nuke",
+    "price": 5.00,
+    "eventPoint": 1.0,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/d52ef010cb8818dd05b04c2250f475d11006629c.png",
+    "caseUrl": "/cases/open/nuke",
+    "likes": 534,
+    "tags": ""
+  },
+  {
+    "id": "control",
+    "title": "Control",
+    "price": 6.00,
+    "eventPoint": 1.2,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/afbef3441619160b02ccc7f110e9ed3d9460352a.png",
+    "caseUrl": "/cases/open/control",
+    "likes": 366,
+    "tags": ""
+  },
+  {
+    "id": "ancient",
+    "title": "Ancient",
+    "price": 8.00,
+    "eventPoint": 1.6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/c49c7c99d05e32840670abdfa67e9632dd7167bd.png",
+    "caseUrl": "/cases/open/ancient",
+    "likes": 344,
+    "tags": ""
+  },
+  {
+    "id": "norse",
+    "title": "Norse",
+    "price": 10.00,
+    "eventPoint": 2.0, 
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/8428bde5c05e27d150afdf8e6b4ce6c6e0b49a5f.png",
+    "caseUrl": "/cases/open/norse",
+    "likes": 345,
+    "tags": ""
+  },
+  {
+    "id": "office",
+    "title": "Office",
+    "price": 12.00,
+    "eventPoint": 2.4, 
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/10009475026891aecb8ca27671fa502b9920894b.png",
+    "caseUrl": "/cases/open/office",
+    "likes": 675,
+    "tags": ""
+  },
+  {
+    "id": "dust",
+    "title": "Dust",
+    "price": 13.00,
+    "eventPoint": 2.6,
+    "imageUrl": "https://cfdn.skin.club/iixekz9zfm/6ca5ee212fdb642ae6752538899989b49848788c.png",
+    "caseUrl": "/cases/open/dust",
+    "likes": 645,
     "tags": ""
   }
 ]

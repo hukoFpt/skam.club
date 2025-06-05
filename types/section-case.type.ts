@@ -1,8 +1,8 @@
 export interface Case {
   id: string;
   title: string;
-  price: string;
-  eventPoint: string;
+  price: number;
+  eventPoint: number;
   imageUrl: string;
   caseUrl: string;
   likes: number;

@@ -11,6 +11,9 @@ import VitalityBanner from "./VitalityBanner.component";
 import BattleBanner from "./BattleBanner.component";
 import KarriganBanner from "./KarriganBanner.component";
 
+import { CasesGrid } from "./Cases/CasesGrid.component";
+import { getCasesBySection } from "@/utils/section-case.util";
+
 type Props = {
   id: number;
   title: string;
@@ -20,6 +23,9 @@ type Props = {
 
 export const SectionAccordion = ({ id, title, description, type }: Props) => {
   const [isActive, setIsActive] = React.useState(false);
+  const cases = getCasesBySection(id.toString());
+
+  const sectionHeight = 460 * Math.ceil(cases.length / 5);
 
   const renderSectionBackground = () => {
     switch (type) {
@@ -58,13 +64,17 @@ export const SectionAccordion = ({ id, title, description, type }: Props) => {
         >
           {String(id).padStart(2, "0")}
         </div>
-        <div className={`${styles["title-number"]} ${styles["small"]} font-nechao opacity-10`}>{String(id).padStart(2, "0")}</div>
+        <div className={`${styles["title-number"]} ${styles["small"]} font-nechao opacity-10`}>
+          {String(id).padStart(2, "0")}
+        </div>
         <div className="relative flex w-3/4 items-baseline pr-[130px] m-auto">
           <div className="text-2xl font-bold text-white mr-5 uppercase">{title}</div>
           <span className="text-[13px] text-[#70699b] uppercase flex-grow-1 flex">
             {description}{" "}
             {type === "community" && (
-              <div className={`${styles["section-title__create-case-button"]} w-full flex items-baseline gap-1 cursor-pointer`}>
+              <div
+                className={`${styles["section-title__create-case-button"]} w-full flex items-baseline gap-1 cursor-pointer`}
+              >
                 <div className={`${styles["plus-icon"]} w-2.5 h-2.5 bg-[#8471f7]`}></div>
                 Create your own case
               </div>
@@ -84,11 +94,13 @@ export const SectionAccordion = ({ id, title, description, type }: Props) => {
         </div>
       </div>
       <div
-        className={`overflow-hidden transition-all duration-500 ease-in-out ${
-          isActive ? "max-h-[460px] opacity-100" : "max-h-0 opacity-0"
-        }`}
+        className="overflow-hidden transition-all duration-500 ease-in-out"
+        style={{
+          maxHeight: isActive ? `${sectionHeight}px` : "0px",
+          opacity: isActive ? 1 : 0,
+        }}
       >
-        <div className="h-[460px]"></div>
+        <CasesGrid cases={cases} sectionId={id.toString()} />
       </div>
     </section>
   );
