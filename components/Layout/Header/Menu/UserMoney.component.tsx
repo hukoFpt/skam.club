@@ -8,14 +8,16 @@ import { useState } from "react";
 type Props = {
   money_balance: number;
   weapon_balance: number;
+  onOpenMoney: () => void;
+  onOpenInventory: () => void;
 };
-export const UserMoney = ({ money_balance, weapon_balance }: Props) => {
+export const UserMoney = ({ money_balance, weapon_balance, onOpenMoney, onOpenInventory }: Props) => {
   const [hovered, setHovered] = useState(false);
 
   return (
     <div className={`${styles["user-money"]} relative flex items-center gap-2 h-12 px-4`}>
       <div className="flex flex-col items-start">
-        <div className="flex gap-1.5 group items-center justify-center cursor-pointer">
+        <div className="flex gap-1.5 group items-center justify-center cursor-pointer" onClick={onOpenMoney}>
           <MoneyBalanceIcon
             height={18}
             width={18}
@@ -26,7 +28,7 @@ export const UserMoney = ({ money_balance, weapon_balance }: Props) => {
             ${money_balance.toFixed(2)}
           </div>
         </div>
-        <div className="flex gap-1.5 group items-center justify-center cursor-pointer">
+        <div className="flex gap-1.5 group items-center justify-center cursor-pointer" onClick={onOpenInventory}>
           <WeaponBalanceIcon
             height={18}
             width={18}
@@ -38,7 +40,12 @@ export const UserMoney = ({ money_balance, weapon_balance }: Props) => {
           </div>
         </div>
       </div>
-      <div onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} className="cursor-pointer">
+      <div
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+        className="cursor-pointer"
+        onClick={onOpenMoney}
+      >
         <AddFundIcon height={24} width={28} background={hovered ? "#4af1cc" : "#0fc69d"} />
       </div>
     </div>

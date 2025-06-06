@@ -33,7 +33,13 @@ export const CaseCard = ({ case: caseData, onClick }: CaseCardProps) => {
           transitionTimingFunction: "cubic-bezier(0.47, 1.64, 0.41, 0.8)",
         }}
       >
-        <Image src={caseData.imageUrl} alt={caseData.title} width={232} height={234} className="object-contain w-full h-full" />
+        <Image
+          src={caseData.imageUrl}
+          alt={caseData.title}
+          width={232}
+          height={234}
+          className="object-contain"
+        />
       </div>
       {caseData.tags != null && (
         <div
@@ -53,7 +59,13 @@ export const CaseCard = ({ case: caseData, onClick }: CaseCardProps) => {
       </div>
       <span className={`${styles["feast-point"]} flex items-center justify-center opacity-0 group-hover:opacity-100`}>
         +{caseData.eventPoint}
-        <Image src="/images/home/austin-blast.png" alt="Feast Point Icon" width={20} height={20} className="inline-block ml-1" />
+        <Image
+          src="/images/home/austin-blast.png"
+          alt="Feast Point Icon"
+          width={20}
+          height={20}
+          className="inline-block ml-1"
+        />
       </span>
       {caseData.price === 0 ? (
         <div>

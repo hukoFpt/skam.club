@@ -1,0 +1,101 @@
+.modal-close-button {
+  display: inline-block;
+  height: 15px;
+  -webkit-mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M0 2.8 2.8 0 10 7.2 17.2 0 20 2.8 12.8 10l7.2 7.2-2.8 2.8-7.2-7.2L2.8 20 0 17.2 7.2 10z'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M0 2.8 2.8 0 10 7.2 17.2 0 20 2.8 12.8 10l7.2 7.2-2.8 2.8-7.2-7.2L2.8 20 0 17.2 7.2 10z'/%3E%3C/svg%3E");
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  transition: background-color 0.3s;
+  width: 15px;
+}
+
+.tab::after {
+  background: #f5115c;
+  bottom: 0;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.tab.active::after {
+  height: 2px;
+}
+
+.payment-card::before {
+  border: 1px solid #665eb3;
+  border-radius: 10px;
+  box-shadow: inset 0 -8px 40px #665eb24d;
+  box-sizing: border-box;
+  content: "";
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  transition:
+    opacity 0.3s,
+    visibility 0.3s;
+  visibility: hidden;
+  width: 100%;
+}
+
+.payment-card.active::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.suggestion-button {
+  clip-path: polygon(9px 0, calc(100% - 9px) 0, 100% 50%, calc(100% - 9px) 100%, 9px 100%, 0 50%);
+  color: #e4dcfc;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  margin: 4px;
+  position: relative;
+  text-align: center;
+  width: 62px;
+}
+
+.user-commission__line::before {
+  border-bottom: 2px dotted #2e2b4e;
+  bottom: 3px;
+  content: "";
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+.card-checkout {
+  align-items: center;
+  clip-path: polygon(16px 0, calc(100% - 16px) 0, 100% 50%, calc(100% - 16px) 100%, 16px 100%, 0 50%);
+  color: #fff;
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  justify-content: center;
+  margin-top: 20px;
+  min-width: 190px;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+
+.hall-of-fame {
+  align-items: center;
+  background-image: url("/images/layout/supporter-hall-of-fame.png");
+  background-position: center -65px;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+  height: 100%;
+  overflow: auto;
+  padding: 20px 20px;
+  position: relative;
+  width: 100%;
+}

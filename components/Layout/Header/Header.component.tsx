@@ -7,13 +7,19 @@ import TopBlock from "./TopBlock/TopBlock.component";
 import Menu from "./Menu/Menu.component";
 import LiveFeed from "./LiveFeed/LiveFeed.component";
 
-const Header = () => {
+interface HeaderProps {
+  onOpenMoney: () => void;
+  onOpenInventory: () => void;
+  onOpenSettings: () => void;
+}
+
+const Header: React.FC<HeaderProps> = ({ onOpenMoney, onOpenInventory, onOpenSettings }) => {
   const pathname = usePathname();
 
   return (
     <div className={`relative px-11 pt-2.5 ${pathname === "/" ? styles["header-bg"] : ""}`}>
       <TopBlock />
-      <Menu />
+      <Menu onOpenMoney={onOpenMoney} onOpenInventory={onOpenInventory} onOpenSettings={onOpenSettings} />
       {pathname === "/" && <LiveFeed />}
     </div>
   );
